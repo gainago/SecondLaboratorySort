@@ -1,0 +1,3 @@
+/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles/test_cmake.dir
+/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles/edit_cache.dir
+/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles/rebuild_cache.dir

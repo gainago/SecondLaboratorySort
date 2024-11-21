@@ -1,0 +1,3 @@
+/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/build/CMakeFiles/Shared_Library_Unit_Tests.dir
+/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/build/CMakeFiles/edit_cache.dir
+/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/build/CMakeFiles/rebuild_cache.dir

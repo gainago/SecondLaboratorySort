@@ -1,0 +1,3 @@
+/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/TypesOfData/build/CMakeFiles/SharedLibrary_TypesOfData.dir
+/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/TypesOfData/build/CMakeFiles/edit_cache.dir
+/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/TypesOfData/build/CMakeFiles/rebuild_cache.dir
