@@ -25,7 +25,7 @@ void WritePersonToFile(int const count, DynamicArray<MyString> *Names, DynamicAr
     for(int i = 0; i < count; i++)
     {
         ofs << *(seq->Get(i));
-        std::cout << "size of Person is: " << sizeof(*(seq->Get(i))) <<std::endl;
+        //std::cout << "size of Person is: " << sizeof(*(seq->Get(i))) <<std::endl;
     }
 
     for(int i = 0; i < seq->GetLength(); i++)

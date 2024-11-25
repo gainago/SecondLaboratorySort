@@ -13,12 +13,12 @@ void HandWrittenBubbleTests()
     Sequence<int> *seq = new MutableArraySequence<int>(arr, 10);
     BubbleSorter<int> bSorter(cmpInt);
     bSorter.Sort(seq); 
-    assert(SeqIsCorrectlySorted<int>(seq, cmpInt));
+    assert(CheckCorrectlySorted<int>(seq, cmpInt));
     delete seq;
 
     Sequence<int> *seq2 = new MutableArraySequence<int>;
     bSorter.Sort(seq2);
-    assert(SeqIsCorrectlySorted<int>(seq2, cmpInt));
+    assert(CheckCorrectlySorted<int>(seq2, cmpInt));
     delete seq2;
 
 }
@@ -28,11 +28,11 @@ void AutomaticallyGeneratedDataBubbleTests()
     Sequence<int> *seq = GenerateArraySequenceInt(100);
     BubbleSorter<int> bSorter(cmpInt);
     bSorter.Sort(seq);
-    assert(SeqIsCorrectlySorted<int>(seq, cmpInt));
+    assert(CheckCorrectlySorted<int>(seq, cmpInt));
     delete seq;
 
     Sequence<int> *seq2 = GenerateArraySequenceInt(0);
     bSorter.Sort(seq2);
-    assert(SeqIsCorrectlySorted<int>(seq2, cmpInt));
+    assert(CheckCorrectlySorted<int>(seq2, cmpInt));
     delete seq2;
 }

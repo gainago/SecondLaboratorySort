@@ -142,6 +142,58 @@
         }
     }
 
+    double MyString::MyStringToDouble() const
+    {                                            // '0' = 48; '9' = 57
+            MyString inputStr(*this);
+            
+            
+            MyString MystrFirstPart;
+            MyString MystrSecondPart;
+            bool partNumber = 0;
+
+            for(int i = 0; i <= inputStr.GetLength(); i++)
+            {
+                if((inputStr[i] != '\0' && inputStr[i] != '.') && ((int)inputStr[i] < 48 || (int)inputStr[i] > 57))
+                    throw "invalid character";
+                if(inputStr[i] == '\0')
+                    break;
+                if(inputStr[i] == '.'){
+                
+                    partNumber = 1;
+                    continue;
+                }
+                if(partNumber == 0){
+                
+                    MystrFirstPart = MystrFirstPart + MyString(inputStr[i]);
+                }
+                else{
+                    MystrSecondPart = MystrSecondPart + MyString(inputStr[i]);
+                }
+
+            }
+            double firstPart = 0;
+            for(int i = 0; i < MystrFirstPart.GetLength(); i++)
+            {
+                firstPart*=10;
+                firstPart +=   ((int)(MystrFirstPart.operator[](i)) - 48);
+            }
+
+            double k = 1;
+            double secondpart = 0;
+
+            for(int i = 0; i < MystrSecondPart.GetLength(); i++)
+            {
+                k*=0.1;
+                secondpart += ((int)(MystrSecondPart.operator[](i)) - 48) * k;
+            }
+
+            return firstPart + secondpart;
+
+            
+
+        
+    }
+
     int MyString::StrLen(const char* symbols) const
     {
         int size = 0;

@@ -6,7 +6,7 @@
 #include "Sequence.h"
 #include "PrintSeq.h"
 
-template <typename Type> bool SeqIsCorrectlySorted(Sequence<Type> const *seq, bool (*cmp)(Type const &, Type const &))
+template <typename Type> bool CheckCorrectlySorted(Sequence<Type> const *seq, bool (*cmp)(Type const &, Type const &))
 {
     //PrintSeq(seq);
     for(int i = 0; i < seq->GetLength() - 1; i++)

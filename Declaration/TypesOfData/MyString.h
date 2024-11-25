@@ -38,6 +38,8 @@ public:
     
     void Reverse();
 
+    double MyStringToDouble() const;
+
     MyString(const MyString& other);
 
     MyString& operator=(const MyString& other);

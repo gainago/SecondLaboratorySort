@@ -39,7 +39,7 @@ Sequence<Person*>* GenerateArraySequencePerson(int const count, DynamicArray<MyS
         MyString tmpLastName = SFL(lastName);
         Person *tmpPerson;
         try{
-            tmpPerson = new Person(tmpId, tmpName, tmpMiddleName, tmpLastName, i);
+            tmpPerson = new Person(tmpId, tmpName, tmpMiddleName, tmpLastName, rand() % 220 + 1800) ;
         }
         catch(...)
         {

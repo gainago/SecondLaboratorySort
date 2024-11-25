@@ -1,0 +1,2 @@
+CMakeFiles/untitled5_Unit_Tests.dir/untitled5_Unit_Tests_autogen/mocs_compilation.cpp.o: \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/untitled5_Unit_Tests_autogen/mocs_compilation.cpp

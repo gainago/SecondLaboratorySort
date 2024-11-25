@@ -14,8 +14,39 @@ bool cmpPerson(Person const & perFirst, Person const & perSecond)
     if(strNameSecond.GetLength() == 0)
         return false;
 
-    if((int)(strNameFirst.Seize()[0]) < (int)(strNameSecond.Seize()[0]))
-        return true;
+    bool returnBool = 0;
     
-    return false;
+    char const *tmpNameFirst = strNameFirst.Seize();
+    char const *tmpNameSecond = strNameSecond.Seize();
+    if((int)(tmpNameFirst[0]) < (int)(tmpNameSecond[0]))
+        returnBool = true;
+    
+    delete tmpNameFirst;
+    delete tmpNameSecond;
+
+    return returnBool;
+}
+
+bool cmpPointerPerson(Person * const &  pperFirst, Person * const &  pperSecond)
+{
+    Person perFirst = *pperFirst;
+    Person perSecond = *pperSecond;
+        MyString strNameFirst = perFirst.GetFirstName(), strNameSecond = perSecond.GetFirstName();
+    if(strNameFirst.GetLength() == 0)
+        return true;
+    if(strNameSecond.GetLength() == 0)
+        return false;
+
+    bool returnBool = 0;
+
+   char const *tmpNameFirst = strNameFirst.Seize();
+    char const *tmpNameSecond = strNameSecond.Seize();
+    if((int)(tmpNameFirst[0]) < (int)(tmpNameSecond[0]))
+        returnBool = true;
+
+    delete tmpNameFirst;
+    delete tmpNameSecond;
+
+    return returnBool;
+
 }

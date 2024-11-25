@@ -283,8 +283,9 @@ public:
             resultArray->Set(i, this->array_->Get(startIndex + i));
         }
         ImmutableArraySequence<T> *result = new ImmutableArraySequence<T>(resultArray);
-        result->array_ = resultArray;
+        delete resultArray;
         return result;
+
     }
 
     ImmutableArraySequence<T>* GetNewSequence(const int size) override

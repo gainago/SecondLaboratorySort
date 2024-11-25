@@ -117,24 +117,167 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test_cmake
+# Target rules for targets named untitled5_TypesOfData_lib
 
 # Build rule for target.
-test_cmake: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_cmake
-.PHONY : test_cmake
+untitled5_TypesOfData_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 untitled5_TypesOfData_lib
+.PHONY : untitled5_TypesOfData_lib
 
 # fast build rule for target.
-test_cmake/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/build
-.PHONY : test_cmake/fast
+untitled5_TypesOfData_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_TypesOfData_lib.dir/build.make CMakeFiles/untitled5_TypesOfData_lib.dir/build
+.PHONY : untitled5_TypesOfData_lib/fast
+
+#=============================================================================
+# Target rules for targets named untitled5_Function_For_Tests_lib
+
+# Build rule for target.
+untitled5_Function_For_Tests_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 untitled5_Function_For_Tests_lib
+.PHONY : untitled5_Function_For_Tests_lib
+
+# fast build rule for target.
+untitled5_Function_For_Tests_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/build
+.PHONY : untitled5_Function_For_Tests_lib/fast
+
+#=============================================================================
+# Target rules for targets named untitled5_Unit_Tests
+
+# Build rule for target.
+untitled5_Unit_Tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 untitled5_Unit_Tests
+.PHONY : untitled5_Unit_Tests
+
+# fast build rule for target.
+untitled5_Unit_Tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/build
+.PHONY : untitled5_Unit_Tests/fast
+
+#=============================================================================
+# Target rules for targets named untitled5
+
+# Build rule for target.
+untitled5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 untitled5
+.PHONY : untitled5
+
+# fast build rule for target.
+untitled5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/build
+.PHONY : untitled5/fast
+
+#=============================================================================
+# Target rules for targets named untitled5_TypesOfData_lib_autogen_timestamp_deps
+
+# Build rule for target.
+untitled5_TypesOfData_lib_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 untitled5_TypesOfData_lib_autogen_timestamp_deps
+.PHONY : untitled5_TypesOfData_lib_autogen_timestamp_deps
+
+# fast build rule for target.
+untitled5_TypesOfData_lib_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_TypesOfData_lib_autogen_timestamp_deps.dir/build.make CMakeFiles/untitled5_TypesOfData_lib_autogen_timestamp_deps.dir/build
+.PHONY : untitled5_TypesOfData_lib_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named untitled5_TypesOfData_lib_autogen
+
+# Build rule for target.
+untitled5_TypesOfData_lib_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 untitled5_TypesOfData_lib_autogen
+.PHONY : untitled5_TypesOfData_lib_autogen
+
+# fast build rule for target.
+untitled5_TypesOfData_lib_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_TypesOfData_lib_autogen.dir/build.make CMakeFiles/untitled5_TypesOfData_lib_autogen.dir/build
+.PHONY : untitled5_TypesOfData_lib_autogen/fast
+
+#=============================================================================
+# Target rules for targets named untitled5_Function_For_Tests_lib_autogen_timestamp_deps
+
+# Build rule for target.
+untitled5_Function_For_Tests_lib_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 untitled5_Function_For_Tests_lib_autogen_timestamp_deps
+.PHONY : untitled5_Function_For_Tests_lib_autogen_timestamp_deps
+
+# fast build rule for target.
+untitled5_Function_For_Tests_lib_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib_autogen_timestamp_deps.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib_autogen_timestamp_deps.dir/build
+.PHONY : untitled5_Function_For_Tests_lib_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named untitled5_Function_For_Tests_lib_autogen
+
+# Build rule for target.
+untitled5_Function_For_Tests_lib_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 untitled5_Function_For_Tests_lib_autogen
+.PHONY : untitled5_Function_For_Tests_lib_autogen
+
+# fast build rule for target.
+untitled5_Function_For_Tests_lib_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib_autogen.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib_autogen.dir/build
+.PHONY : untitled5_Function_For_Tests_lib_autogen/fast
+
+#=============================================================================
+# Target rules for targets named untitled5_Unit_Tests_autogen_timestamp_deps
+
+# Build rule for target.
+untitled5_Unit_Tests_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 untitled5_Unit_Tests_autogen_timestamp_deps
+.PHONY : untitled5_Unit_Tests_autogen_timestamp_deps
+
+# fast build rule for target.
+untitled5_Unit_Tests_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests_autogen_timestamp_deps.dir/build.make CMakeFiles/untitled5_Unit_Tests_autogen_timestamp_deps.dir/build
+.PHONY : untitled5_Unit_Tests_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named untitled5_Unit_Tests_autogen
+
+# Build rule for target.
+untitled5_Unit_Tests_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 untitled5_Unit_Tests_autogen
+.PHONY : untitled5_Unit_Tests_autogen
+
+# fast build rule for target.
+untitled5_Unit_Tests_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests_autogen.dir/build.make CMakeFiles/untitled5_Unit_Tests_autogen.dir/build
+.PHONY : untitled5_Unit_Tests_autogen/fast
+
+#=============================================================================
+# Target rules for targets named untitled5_autogen_timestamp_deps
+
+# Build rule for target.
+untitled5_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 untitled5_autogen_timestamp_deps
+.PHONY : untitled5_autogen_timestamp_deps
+
+# fast build rule for target.
+untitled5_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_autogen_timestamp_deps.dir/build.make CMakeFiles/untitled5_autogen_timestamp_deps.dir/build
+.PHONY : untitled5_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named untitled5_autogen
+
+# Build rule for target.
+untitled5_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 untitled5_autogen
+.PHONY : untitled5_autogen
+
+# fast build rule for target.
+untitled5_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_autogen.dir/build.make CMakeFiles/untitled5_autogen.dir/build
+.PHONY : untitled5_autogen/fast
 
 Definition/TypesOfData/Comporators.o: Definition/TypesOfData/Comporators.cpp.o
 .PHONY : Definition/TypesOfData/Comporators.o
 
 # target to build an object file
 Definition/TypesOfData/Comporators.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/TypesOfData/Comporators.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_TypesOfData_lib.dir/build.make CMakeFiles/untitled5_TypesOfData_lib.dir/Definition/TypesOfData/Comporators.cpp.o
 .PHONY : Definition/TypesOfData/Comporators.cpp.o
 
 Definition/TypesOfData/Comporators.i: Definition/TypesOfData/Comporators.cpp.i
@@ -142,7 +285,7 @@ Definition/TypesOfData/Comporators.i: Definition/TypesOfData/Comporators.cpp.i
 
 # target to preprocess a source file
 Definition/TypesOfData/Comporators.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/TypesOfData/Comporators.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_TypesOfData_lib.dir/build.make CMakeFiles/untitled5_TypesOfData_lib.dir/Definition/TypesOfData/Comporators.cpp.i
 .PHONY : Definition/TypesOfData/Comporators.cpp.i
 
 Definition/TypesOfData/Comporators.s: Definition/TypesOfData/Comporators.cpp.s
@@ -150,7 +293,7 @@ Definition/TypesOfData/Comporators.s: Definition/TypesOfData/Comporators.cpp.s
 
 # target to generate assembly for a file
 Definition/TypesOfData/Comporators.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/TypesOfData/Comporators.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_TypesOfData_lib.dir/build.make CMakeFiles/untitled5_TypesOfData_lib.dir/Definition/TypesOfData/Comporators.cpp.s
 .PHONY : Definition/TypesOfData/Comporators.cpp.s
 
 Definition/TypesOfData/MyString.o: Definition/TypesOfData/MyString.cpp.o
@@ -158,7 +301,7 @@ Definition/TypesOfData/MyString.o: Definition/TypesOfData/MyString.cpp.o
 
 # target to build an object file
 Definition/TypesOfData/MyString.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/TypesOfData/MyString.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_TypesOfData_lib.dir/build.make CMakeFiles/untitled5_TypesOfData_lib.dir/Definition/TypesOfData/MyString.cpp.o
 .PHONY : Definition/TypesOfData/MyString.cpp.o
 
 Definition/TypesOfData/MyString.i: Definition/TypesOfData/MyString.cpp.i
@@ -166,7 +309,7 @@ Definition/TypesOfData/MyString.i: Definition/TypesOfData/MyString.cpp.i
 
 # target to preprocess a source file
 Definition/TypesOfData/MyString.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/TypesOfData/MyString.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_TypesOfData_lib.dir/build.make CMakeFiles/untitled5_TypesOfData_lib.dir/Definition/TypesOfData/MyString.cpp.i
 .PHONY : Definition/TypesOfData/MyString.cpp.i
 
 Definition/TypesOfData/MyString.s: Definition/TypesOfData/MyString.cpp.s
@@ -174,7 +317,7 @@ Definition/TypesOfData/MyString.s: Definition/TypesOfData/MyString.cpp.s
 
 # target to generate assembly for a file
 Definition/TypesOfData/MyString.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/TypesOfData/MyString.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_TypesOfData_lib.dir/build.make CMakeFiles/untitled5_TypesOfData_lib.dir/Definition/TypesOfData/MyString.cpp.s
 .PHONY : Definition/TypesOfData/MyString.cpp.s
 
 Definition/TypesOfData/Person.o: Definition/TypesOfData/Person.cpp.o
@@ -182,7 +325,7 @@ Definition/TypesOfData/Person.o: Definition/TypesOfData/Person.cpp.o
 
 # target to build an object file
 Definition/TypesOfData/Person.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/TypesOfData/Person.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_TypesOfData_lib.dir/build.make CMakeFiles/untitled5_TypesOfData_lib.dir/Definition/TypesOfData/Person.cpp.o
 .PHONY : Definition/TypesOfData/Person.cpp.o
 
 Definition/TypesOfData/Person.i: Definition/TypesOfData/Person.cpp.i
@@ -190,7 +333,7 @@ Definition/TypesOfData/Person.i: Definition/TypesOfData/Person.cpp.i
 
 # target to preprocess a source file
 Definition/TypesOfData/Person.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/TypesOfData/Person.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_TypesOfData_lib.dir/build.make CMakeFiles/untitled5_TypesOfData_lib.dir/Definition/TypesOfData/Person.cpp.i
 .PHONY : Definition/TypesOfData/Person.cpp.i
 
 Definition/TypesOfData/Person.s: Definition/TypesOfData/Person.cpp.s
@@ -198,7 +341,7 @@ Definition/TypesOfData/Person.s: Definition/TypesOfData/Person.cpp.s
 
 # target to generate assembly for a file
 Definition/TypesOfData/Person.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/TypesOfData/Person.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_TypesOfData_lib.dir/build.make CMakeFiles/untitled5_TypesOfData_lib.dir/Definition/TypesOfData/Person.cpp.s
 .PHONY : Definition/TypesOfData/Person.cpp.s
 
 Definition/main.o: Definition/main.cpp.o
@@ -206,7 +349,7 @@ Definition/main.o: Definition/main.cpp.o
 
 # target to build an object file
 Definition/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/Definition/main.cpp.o
 .PHONY : Definition/main.cpp.o
 
 Definition/main.i: Definition/main.cpp.i
@@ -214,7 +357,7 @@ Definition/main.i: Definition/main.cpp.i
 
 # target to preprocess a source file
 Definition/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/Definition/main.cpp.i
 .PHONY : Definition/main.cpp.i
 
 Definition/main.s: Definition/main.cpp.s
@@ -222,8 +365,536 @@ Definition/main.s: Definition/main.cpp.s
 
 # target to generate assembly for a file
 Definition/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/Definition/main.cpp.s
 .PHONY : Definition/main.cpp.s
+
+Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.o: Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.cpp.o
+.PHONY : Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.o
+
+# target to build an object file
+Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.cpp.o
+.PHONY : Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.cpp.o
+
+Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.i: Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.cpp.i
+.PHONY : Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.i
+
+# target to preprocess a source file
+Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.cpp.i
+.PHONY : Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.cpp.i
+
+Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.s: Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.cpp.s
+.PHONY : Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.s
+
+# target to generate assembly for a file
+Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.cpp.s
+.PHONY : Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.cpp.s
+
+Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.o: Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.cpp.o
+.PHONY : Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.o
+
+# target to build an object file
+Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.cpp.o
+.PHONY : Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.cpp.o
+
+Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.i: Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.cpp.i
+.PHONY : Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.i
+
+# target to preprocess a source file
+Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.cpp.i
+.PHONY : Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.cpp.i
+
+Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.s: Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.cpp.s
+.PHONY : Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.s
+
+# target to generate assembly for a file
+Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.cpp.s
+.PHONY : Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.cpp.s
+
+Tests/FunctionsForTests/Definition/GenerateListSequenceInt.o: Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.o
+.PHONY : Tests/FunctionsForTests/Definition/GenerateListSequenceInt.o
+
+# target to build an object file
+Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.o
+.PHONY : Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.o
+
+Tests/FunctionsForTests/Definition/GenerateListSequenceInt.i: Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.i
+.PHONY : Tests/FunctionsForTests/Definition/GenerateListSequenceInt.i
+
+# target to preprocess a source file
+Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.i
+.PHONY : Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.i
+
+Tests/FunctionsForTests/Definition/GenerateListSequenceInt.s: Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.s
+.PHONY : Tests/FunctionsForTests/Definition/GenerateListSequenceInt.s
+
+# target to generate assembly for a file
+Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.s
+.PHONY : Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.s
+
+Tests/FunctionsForTests/Definition/GenerateListSequencePerson.o: Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp.o
+.PHONY : Tests/FunctionsForTests/Definition/GenerateListSequencePerson.o
+
+# target to build an object file
+Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp.o
+.PHONY : Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp.o
+
+Tests/FunctionsForTests/Definition/GenerateListSequencePerson.i: Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp.i
+.PHONY : Tests/FunctionsForTests/Definition/GenerateListSequencePerson.i
+
+# target to preprocess a source file
+Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp.i
+.PHONY : Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp.i
+
+Tests/FunctionsForTests/Definition/GenerateListSequencePerson.s: Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp.s
+.PHONY : Tests/FunctionsForTests/Definition/GenerateListSequencePerson.s
+
+# target to generate assembly for a file
+Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp.s
+.PHONY : Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp.s
+
+Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.o: Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp.o
+.PHONY : Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.o
+
+# target to build an object file
+Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp.o
+.PHONY : Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp.o
+
+Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.i: Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp.i
+.PHONY : Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.i
+
+# target to preprocess a source file
+Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp.i
+.PHONY : Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp.i
+
+Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.s: Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp.s
+.PHONY : Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.s
+
+# target to generate assembly for a file
+Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp.s
+.PHONY : Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp.s
+
+Tests/FunctionsForTests/Definition/WriteIntToFile.o: Tests/FunctionsForTests/Definition/WriteIntToFile.cpp.o
+.PHONY : Tests/FunctionsForTests/Definition/WriteIntToFile.o
+
+# target to build an object file
+Tests/FunctionsForTests/Definition/WriteIntToFile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WriteIntToFile.cpp.o
+.PHONY : Tests/FunctionsForTests/Definition/WriteIntToFile.cpp.o
+
+Tests/FunctionsForTests/Definition/WriteIntToFile.i: Tests/FunctionsForTests/Definition/WriteIntToFile.cpp.i
+.PHONY : Tests/FunctionsForTests/Definition/WriteIntToFile.i
+
+# target to preprocess a source file
+Tests/FunctionsForTests/Definition/WriteIntToFile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WriteIntToFile.cpp.i
+.PHONY : Tests/FunctionsForTests/Definition/WriteIntToFile.cpp.i
+
+Tests/FunctionsForTests/Definition/WriteIntToFile.s: Tests/FunctionsForTests/Definition/WriteIntToFile.cpp.s
+.PHONY : Tests/FunctionsForTests/Definition/WriteIntToFile.s
+
+# target to generate assembly for a file
+Tests/FunctionsForTests/Definition/WriteIntToFile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WriteIntToFile.cpp.s
+.PHONY : Tests/FunctionsForTests/Definition/WriteIntToFile.cpp.s
+
+Tests/FunctionsForTests/Definition/WritePersonToFile.o: Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.o
+.PHONY : Tests/FunctionsForTests/Definition/WritePersonToFile.o
+
+# target to build an object file
+Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.o
+.PHONY : Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.o
+
+Tests/FunctionsForTests/Definition/WritePersonToFile.i: Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.i
+.PHONY : Tests/FunctionsForTests/Definition/WritePersonToFile.i
+
+# target to preprocess a source file
+Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.i
+.PHONY : Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.i
+
+Tests/FunctionsForTests/Definition/WritePersonToFile.s: Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.s
+.PHONY : Tests/FunctionsForTests/Definition/WritePersonToFile.s
+
+# target to generate assembly for a file
+Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.s
+.PHONY : Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.s
+
+Tests/LoadTests/Definition/LoadTestFromFileInt.o: Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.o
+.PHONY : Tests/LoadTests/Definition/LoadTestFromFileInt.o
+
+# target to build an object file
+Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.o
+.PHONY : Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.o
+
+Tests/LoadTests/Definition/LoadTestFromFileInt.i: Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.i
+.PHONY : Tests/LoadTests/Definition/LoadTestFromFileInt.i
+
+# target to preprocess a source file
+Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.i
+.PHONY : Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.i
+
+Tests/LoadTests/Definition/LoadTestFromFileInt.s: Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.s
+.PHONY : Tests/LoadTests/Definition/LoadTestFromFileInt.s
+
+# target to generate assembly for a file
+Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.s
+.PHONY : Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.s
+
+Tests/LoadTests/Definition/StartLoadTests.o: Tests/LoadTests/Definition/StartLoadTests.cpp.o
+.PHONY : Tests/LoadTests/Definition/StartLoadTests.o
+
+# target to build an object file
+Tests/LoadTests/Definition/StartLoadTests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/StartLoadTests.cpp.o
+.PHONY : Tests/LoadTests/Definition/StartLoadTests.cpp.o
+
+Tests/LoadTests/Definition/StartLoadTests.i: Tests/LoadTests/Definition/StartLoadTests.cpp.i
+.PHONY : Tests/LoadTests/Definition/StartLoadTests.i
+
+# target to preprocess a source file
+Tests/LoadTests/Definition/StartLoadTests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/StartLoadTests.cpp.i
+.PHONY : Tests/LoadTests/Definition/StartLoadTests.cpp.i
+
+Tests/LoadTests/Definition/StartLoadTests.s: Tests/LoadTests/Definition/StartLoadTests.cpp.s
+.PHONY : Tests/LoadTests/Definition/StartLoadTests.s
+
+# target to generate assembly for a file
+Tests/LoadTests/Definition/StartLoadTests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/StartLoadTests.cpp.s
+.PHONY : Tests/LoadTests/Definition/StartLoadTests.cpp.s
+
+Tests/LoadTests/Ploat/Definition/realtimeplot.o: Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.o
+.PHONY : Tests/LoadTests/Ploat/Definition/realtimeplot.o
+
+# target to build an object file
+Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.o
+.PHONY : Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.o
+
+Tests/LoadTests/Ploat/Definition/realtimeplot.i: Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.i
+.PHONY : Tests/LoadTests/Ploat/Definition/realtimeplot.i
+
+# target to preprocess a source file
+Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.i
+.PHONY : Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.i
+
+Tests/LoadTests/Ploat/Definition/realtimeplot.s: Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.s
+.PHONY : Tests/LoadTests/Ploat/Definition/realtimeplot.s
+
+# target to generate assembly for a file
+Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.s
+.PHONY : Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.s
+
+Tests/UnitTests/Definition/UnitTestBitonicSorter.o: Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.o
+.PHONY : Tests/UnitTests/Definition/UnitTestBitonicSorter.o
+
+# target to build an object file
+Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.o
+.PHONY : Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.o
+
+Tests/UnitTests/Definition/UnitTestBitonicSorter.i: Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.i
+.PHONY : Tests/UnitTests/Definition/UnitTestBitonicSorter.i
+
+# target to preprocess a source file
+Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.i
+.PHONY : Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.i
+
+Tests/UnitTests/Definition/UnitTestBitonicSorter.s: Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.s
+.PHONY : Tests/UnitTests/Definition/UnitTestBitonicSorter.s
+
+# target to generate assembly for a file
+Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.s
+.PHONY : Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.s
+
+Tests/UnitTests/Definition/UnitTestBubbleSorter.o: Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.o
+.PHONY : Tests/UnitTests/Definition/UnitTestBubbleSorter.o
+
+# target to build an object file
+Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.o
+.PHONY : Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.o
+
+Tests/UnitTests/Definition/UnitTestBubbleSorter.i: Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.i
+.PHONY : Tests/UnitTests/Definition/UnitTestBubbleSorter.i
+
+# target to preprocess a source file
+Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.i
+.PHONY : Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.i
+
+Tests/UnitTests/Definition/UnitTestBubbleSorter.s: Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.s
+.PHONY : Tests/UnitTests/Definition/UnitTestBubbleSorter.s
+
+# target to generate assembly for a file
+Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.s
+.PHONY : Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.s
+
+Tests/UnitTests/Definition/UnitTestInsertionSorter.o: Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.o
+.PHONY : Tests/UnitTests/Definition/UnitTestInsertionSorter.o
+
+# target to build an object file
+Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.o
+.PHONY : Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.o
+
+Tests/UnitTests/Definition/UnitTestInsertionSorter.i: Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.i
+.PHONY : Tests/UnitTests/Definition/UnitTestInsertionSorter.i
+
+# target to preprocess a source file
+Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.i
+.PHONY : Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.i
+
+Tests/UnitTests/Definition/UnitTestInsertionSorter.s: Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.s
+.PHONY : Tests/UnitTests/Definition/UnitTestInsertionSorter.s
+
+# target to generate assembly for a file
+Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.s
+.PHONY : Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.s
+
+Tests/UnitTests/Definition/UnitTestMergeSorter.o: Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.o
+.PHONY : Tests/UnitTests/Definition/UnitTestMergeSorter.o
+
+# target to build an object file
+Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.o
+.PHONY : Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.o
+
+Tests/UnitTests/Definition/UnitTestMergeSorter.i: Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.i
+.PHONY : Tests/UnitTests/Definition/UnitTestMergeSorter.i
+
+# target to preprocess a source file
+Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.i
+.PHONY : Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.i
+
+Tests/UnitTests/Definition/UnitTestMergeSorter.s: Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.s
+.PHONY : Tests/UnitTests/Definition/UnitTestMergeSorter.s
+
+# target to generate assembly for a file
+Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.s
+.PHONY : Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.s
+
+Tests/UnitTests/Definition/UnitTestPiramidSorter.o: Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.o
+.PHONY : Tests/UnitTests/Definition/UnitTestPiramidSorter.o
+
+# target to build an object file
+Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.o
+.PHONY : Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.o
+
+Tests/UnitTests/Definition/UnitTestPiramidSorter.i: Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.i
+.PHONY : Tests/UnitTests/Definition/UnitTestPiramidSorter.i
+
+# target to preprocess a source file
+Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.i
+.PHONY : Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.i
+
+Tests/UnitTests/Definition/UnitTestPiramidSorter.s: Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.s
+.PHONY : Tests/UnitTests/Definition/UnitTestPiramidSorter.s
+
+# target to generate assembly for a file
+Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.s
+.PHONY : Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.s
+
+Tests/UnitTests/Definition/UnitTestQuickSorter.o: Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.o
+.PHONY : Tests/UnitTests/Definition/UnitTestQuickSorter.o
+
+# target to build an object file
+Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.o
+.PHONY : Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.o
+
+Tests/UnitTests/Definition/UnitTestQuickSorter.i: Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.i
+.PHONY : Tests/UnitTests/Definition/UnitTestQuickSorter.i
+
+# target to preprocess a source file
+Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.i
+.PHONY : Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.i
+
+Tests/UnitTests/Definition/UnitTestQuickSorter.s: Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.s
+.PHONY : Tests/UnitTests/Definition/UnitTestQuickSorter.s
+
+# target to generate assembly for a file
+Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.s
+.PHONY : Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.s
+
+Tests/UnitTests/Definition/UnitTestShellSorter.o: Tests/UnitTests/Definition/UnitTestShellSorter.cpp.o
+.PHONY : Tests/UnitTests/Definition/UnitTestShellSorter.o
+
+# target to build an object file
+Tests/UnitTests/Definition/UnitTestShellSorter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestShellSorter.cpp.o
+.PHONY : Tests/UnitTests/Definition/UnitTestShellSorter.cpp.o
+
+Tests/UnitTests/Definition/UnitTestShellSorter.i: Tests/UnitTests/Definition/UnitTestShellSorter.cpp.i
+.PHONY : Tests/UnitTests/Definition/UnitTestShellSorter.i
+
+# target to preprocess a source file
+Tests/UnitTests/Definition/UnitTestShellSorter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestShellSorter.cpp.i
+.PHONY : Tests/UnitTests/Definition/UnitTestShellSorter.cpp.i
+
+Tests/UnitTests/Definition/UnitTestShellSorter.s: Tests/UnitTests/Definition/UnitTestShellSorter.cpp.s
+.PHONY : Tests/UnitTests/Definition/UnitTestShellSorter.s
+
+# target to generate assembly for a file
+Tests/UnitTests/Definition/UnitTestShellSorter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestShellSorter.cpp.s
+.PHONY : Tests/UnitTests/Definition/UnitTestShellSorter.cpp.s
+
+Tests/UnitTests/Definition/UnitTests.o: Tests/UnitTests/Definition/UnitTests.cpp.o
+.PHONY : Tests/UnitTests/Definition/UnitTests.o
+
+# target to build an object file
+Tests/UnitTests/Definition/UnitTests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests.cpp.o
+.PHONY : Tests/UnitTests/Definition/UnitTests.cpp.o
+
+Tests/UnitTests/Definition/UnitTests.i: Tests/UnitTests/Definition/UnitTests.cpp.i
+.PHONY : Tests/UnitTests/Definition/UnitTests.i
+
+# target to preprocess a source file
+Tests/UnitTests/Definition/UnitTests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests.cpp.i
+.PHONY : Tests/UnitTests/Definition/UnitTests.cpp.i
+
+Tests/UnitTests/Definition/UnitTests.s: Tests/UnitTests/Definition/UnitTests.cpp.s
+.PHONY : Tests/UnitTests/Definition/UnitTests.s
+
+# target to generate assembly for a file
+Tests/UnitTests/Definition/UnitTests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests.cpp.s
+.PHONY : Tests/UnitTests/Definition/UnitTests.cpp.s
+
+untitled5_Function_For_Tests_lib_autogen/mocs_compilation.o: untitled5_Function_For_Tests_lib_autogen/mocs_compilation.cpp.o
+.PHONY : untitled5_Function_For_Tests_lib_autogen/mocs_compilation.o
+
+# target to build an object file
+untitled5_Function_For_Tests_lib_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/untitled5_Function_For_Tests_lib_autogen/mocs_compilation.cpp.o
+.PHONY : untitled5_Function_For_Tests_lib_autogen/mocs_compilation.cpp.o
+
+untitled5_Function_For_Tests_lib_autogen/mocs_compilation.i: untitled5_Function_For_Tests_lib_autogen/mocs_compilation.cpp.i
+.PHONY : untitled5_Function_For_Tests_lib_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+untitled5_Function_For_Tests_lib_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/untitled5_Function_For_Tests_lib_autogen/mocs_compilation.cpp.i
+.PHONY : untitled5_Function_For_Tests_lib_autogen/mocs_compilation.cpp.i
+
+untitled5_Function_For_Tests_lib_autogen/mocs_compilation.s: untitled5_Function_For_Tests_lib_autogen/mocs_compilation.cpp.s
+.PHONY : untitled5_Function_For_Tests_lib_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+untitled5_Function_For_Tests_lib_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/untitled5_Function_For_Tests_lib_autogen/mocs_compilation.cpp.s
+.PHONY : untitled5_Function_For_Tests_lib_autogen/mocs_compilation.cpp.s
+
+untitled5_TypesOfData_lib_autogen/mocs_compilation.o: untitled5_TypesOfData_lib_autogen/mocs_compilation.cpp.o
+.PHONY : untitled5_TypesOfData_lib_autogen/mocs_compilation.o
+
+# target to build an object file
+untitled5_TypesOfData_lib_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_TypesOfData_lib.dir/build.make CMakeFiles/untitled5_TypesOfData_lib.dir/untitled5_TypesOfData_lib_autogen/mocs_compilation.cpp.o
+.PHONY : untitled5_TypesOfData_lib_autogen/mocs_compilation.cpp.o
+
+untitled5_TypesOfData_lib_autogen/mocs_compilation.i: untitled5_TypesOfData_lib_autogen/mocs_compilation.cpp.i
+.PHONY : untitled5_TypesOfData_lib_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+untitled5_TypesOfData_lib_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_TypesOfData_lib.dir/build.make CMakeFiles/untitled5_TypesOfData_lib.dir/untitled5_TypesOfData_lib_autogen/mocs_compilation.cpp.i
+.PHONY : untitled5_TypesOfData_lib_autogen/mocs_compilation.cpp.i
+
+untitled5_TypesOfData_lib_autogen/mocs_compilation.s: untitled5_TypesOfData_lib_autogen/mocs_compilation.cpp.s
+.PHONY : untitled5_TypesOfData_lib_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+untitled5_TypesOfData_lib_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_TypesOfData_lib.dir/build.make CMakeFiles/untitled5_TypesOfData_lib.dir/untitled5_TypesOfData_lib_autogen/mocs_compilation.cpp.s
+.PHONY : untitled5_TypesOfData_lib_autogen/mocs_compilation.cpp.s
+
+untitled5_Unit_Tests_autogen/mocs_compilation.o: untitled5_Unit_Tests_autogen/mocs_compilation.cpp.o
+.PHONY : untitled5_Unit_Tests_autogen/mocs_compilation.o
+
+# target to build an object file
+untitled5_Unit_Tests_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/untitled5_Unit_Tests_autogen/mocs_compilation.cpp.o
+.PHONY : untitled5_Unit_Tests_autogen/mocs_compilation.cpp.o
+
+untitled5_Unit_Tests_autogen/mocs_compilation.i: untitled5_Unit_Tests_autogen/mocs_compilation.cpp.i
+.PHONY : untitled5_Unit_Tests_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+untitled5_Unit_Tests_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/untitled5_Unit_Tests_autogen/mocs_compilation.cpp.i
+.PHONY : untitled5_Unit_Tests_autogen/mocs_compilation.cpp.i
+
+untitled5_Unit_Tests_autogen/mocs_compilation.s: untitled5_Unit_Tests_autogen/mocs_compilation.cpp.s
+.PHONY : untitled5_Unit_Tests_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+untitled5_Unit_Tests_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/untitled5_Unit_Tests_autogen/mocs_compilation.cpp.s
+.PHONY : untitled5_Unit_Tests_autogen/mocs_compilation.cpp.s
+
+untitled5_autogen/mocs_compilation.o: untitled5_autogen/mocs_compilation.cpp.o
+.PHONY : untitled5_autogen/mocs_compilation.o
+
+# target to build an object file
+untitled5_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/untitled5_autogen/mocs_compilation.cpp.o
+.PHONY : untitled5_autogen/mocs_compilation.cpp.o
+
+untitled5_autogen/mocs_compilation.i: untitled5_autogen/mocs_compilation.cpp.i
+.PHONY : untitled5_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+untitled5_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/untitled5_autogen/mocs_compilation.cpp.i
+.PHONY : untitled5_autogen/mocs_compilation.cpp.i
+
+untitled5_autogen/mocs_compilation.s: untitled5_autogen/mocs_compilation.cpp.s
+.PHONY : untitled5_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+untitled5_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/untitled5_autogen/mocs_compilation.cpp.s
+.PHONY : untitled5_autogen/mocs_compilation.cpp.s
 
 # Help Target
 help:
@@ -233,7 +904,18 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... test_cmake"
+	@echo "... untitled5_Function_For_Tests_lib_autogen"
+	@echo "... untitled5_Function_For_Tests_lib_autogen_timestamp_deps"
+	@echo "... untitled5_TypesOfData_lib_autogen"
+	@echo "... untitled5_TypesOfData_lib_autogen_timestamp_deps"
+	@echo "... untitled5_Unit_Tests_autogen"
+	@echo "... untitled5_Unit_Tests_autogen_timestamp_deps"
+	@echo "... untitled5_autogen"
+	@echo "... untitled5_autogen_timestamp_deps"
+	@echo "... untitled5"
+	@echo "... untitled5_Function_For_Tests_lib"
+	@echo "... untitled5_TypesOfData_lib"
+	@echo "... untitled5_Unit_Tests"
 	@echo "... Definition/TypesOfData/Comporators.o"
 	@echo "... Definition/TypesOfData/Comporators.i"
 	@echo "... Definition/TypesOfData/Comporators.s"
@@ -246,6 +928,72 @@ help:
 	@echo "... Definition/main.o"
 	@echo "... Definition/main.i"
 	@echo "... Definition/main.s"
+	@echo "... Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.o"
+	@echo "... Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.i"
+	@echo "... Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.s"
+	@echo "... Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.o"
+	@echo "... Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.i"
+	@echo "... Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.s"
+	@echo "... Tests/FunctionsForTests/Definition/GenerateListSequenceInt.o"
+	@echo "... Tests/FunctionsForTests/Definition/GenerateListSequenceInt.i"
+	@echo "... Tests/FunctionsForTests/Definition/GenerateListSequenceInt.s"
+	@echo "... Tests/FunctionsForTests/Definition/GenerateListSequencePerson.o"
+	@echo "... Tests/FunctionsForTests/Definition/GenerateListSequencePerson.i"
+	@echo "... Tests/FunctionsForTests/Definition/GenerateListSequencePerson.s"
+	@echo "... Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.o"
+	@echo "... Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.i"
+	@echo "... Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.s"
+	@echo "... Tests/FunctionsForTests/Definition/WriteIntToFile.o"
+	@echo "... Tests/FunctionsForTests/Definition/WriteIntToFile.i"
+	@echo "... Tests/FunctionsForTests/Definition/WriteIntToFile.s"
+	@echo "... Tests/FunctionsForTests/Definition/WritePersonToFile.o"
+	@echo "... Tests/FunctionsForTests/Definition/WritePersonToFile.i"
+	@echo "... Tests/FunctionsForTests/Definition/WritePersonToFile.s"
+	@echo "... Tests/LoadTests/Definition/LoadTestFromFileInt.o"
+	@echo "... Tests/LoadTests/Definition/LoadTestFromFileInt.i"
+	@echo "... Tests/LoadTests/Definition/LoadTestFromFileInt.s"
+	@echo "... Tests/LoadTests/Definition/StartLoadTests.o"
+	@echo "... Tests/LoadTests/Definition/StartLoadTests.i"
+	@echo "... Tests/LoadTests/Definition/StartLoadTests.s"
+	@echo "... Tests/LoadTests/Ploat/Definition/realtimeplot.o"
+	@echo "... Tests/LoadTests/Ploat/Definition/realtimeplot.i"
+	@echo "... Tests/LoadTests/Ploat/Definition/realtimeplot.s"
+	@echo "... Tests/UnitTests/Definition/UnitTestBitonicSorter.o"
+	@echo "... Tests/UnitTests/Definition/UnitTestBitonicSorter.i"
+	@echo "... Tests/UnitTests/Definition/UnitTestBitonicSorter.s"
+	@echo "... Tests/UnitTests/Definition/UnitTestBubbleSorter.o"
+	@echo "... Tests/UnitTests/Definition/UnitTestBubbleSorter.i"
+	@echo "... Tests/UnitTests/Definition/UnitTestBubbleSorter.s"
+	@echo "... Tests/UnitTests/Definition/UnitTestInsertionSorter.o"
+	@echo "... Tests/UnitTests/Definition/UnitTestInsertionSorter.i"
+	@echo "... Tests/UnitTests/Definition/UnitTestInsertionSorter.s"
+	@echo "... Tests/UnitTests/Definition/UnitTestMergeSorter.o"
+	@echo "... Tests/UnitTests/Definition/UnitTestMergeSorter.i"
+	@echo "... Tests/UnitTests/Definition/UnitTestMergeSorter.s"
+	@echo "... Tests/UnitTests/Definition/UnitTestPiramidSorter.o"
+	@echo "... Tests/UnitTests/Definition/UnitTestPiramidSorter.i"
+	@echo "... Tests/UnitTests/Definition/UnitTestPiramidSorter.s"
+	@echo "... Tests/UnitTests/Definition/UnitTestQuickSorter.o"
+	@echo "... Tests/UnitTests/Definition/UnitTestQuickSorter.i"
+	@echo "... Tests/UnitTests/Definition/UnitTestQuickSorter.s"
+	@echo "... Tests/UnitTests/Definition/UnitTestShellSorter.o"
+	@echo "... Tests/UnitTests/Definition/UnitTestShellSorter.i"
+	@echo "... Tests/UnitTests/Definition/UnitTestShellSorter.s"
+	@echo "... Tests/UnitTests/Definition/UnitTests.o"
+	@echo "... Tests/UnitTests/Definition/UnitTests.i"
+	@echo "... Tests/UnitTests/Definition/UnitTests.s"
+	@echo "... untitled5_Function_For_Tests_lib_autogen/mocs_compilation.o"
+	@echo "... untitled5_Function_For_Tests_lib_autogen/mocs_compilation.i"
+	@echo "... untitled5_Function_For_Tests_lib_autogen/mocs_compilation.s"
+	@echo "... untitled5_TypesOfData_lib_autogen/mocs_compilation.o"
+	@echo "... untitled5_TypesOfData_lib_autogen/mocs_compilation.i"
+	@echo "... untitled5_TypesOfData_lib_autogen/mocs_compilation.s"
+	@echo "... untitled5_Unit_Tests_autogen/mocs_compilation.o"
+	@echo "... untitled5_Unit_Tests_autogen/mocs_compilation.i"
+	@echo "... untitled5_Unit_Tests_autogen/mocs_compilation.s"
+	@echo "... untitled5_autogen/mocs_compilation.o"
+	@echo "... untitled5_autogen/mocs_compilation.i"
+	@echo "... untitled5_autogen/mocs_compilation.s"
 .PHONY : help
 
 

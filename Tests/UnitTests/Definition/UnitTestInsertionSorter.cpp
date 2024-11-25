@@ -13,12 +13,12 @@ void HandWrittenInsertionTests()
     Sequence<int> *seq = new MutableArraySequence<int>(arr, 10);
     InsertionSorter<int> iSorter(cmpInt);
     iSorter.Sort(seq); 
-    assert(SeqIsCorrectlySorted<int>(seq, cmpInt));
+    assert(CheckCorrectlySorted<int>(seq, cmpInt));
     delete seq;
 
     Sequence<int> *seq2 = new MutableArraySequence<int>;
     iSorter.Sort(seq2);
-    assert(SeqIsCorrectlySorted<int>(seq2, cmpInt));
+    assert(CheckCorrectlySorted<int>(seq2, cmpInt));
     delete seq2;
 
 }
@@ -28,11 +28,11 @@ void AutomaticallyGeneratedDataInsertionTests()
     Sequence<int> *seq = GenerateArraySequenceInt(100);
     InsertionSorter<int> iSorter(cmpInt);
     iSorter.Sort(seq);
-    assert(SeqIsCorrectlySorted<int>(seq, cmpInt));
+    assert(CheckCorrectlySorted<int>(seq, cmpInt));
     delete seq;
 
     Sequence<int> *seq2 = GenerateArraySequenceInt(0);
     iSorter.Sort(seq2);
-    assert(SeqIsCorrectlySorted<int>(seq2, cmpInt));
+    assert(CheckCorrectlySorted<int>(seq2, cmpInt));
     delete seq2;
 }

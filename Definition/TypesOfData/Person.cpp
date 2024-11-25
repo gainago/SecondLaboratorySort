@@ -6,7 +6,7 @@
 
     Person::Person() : id(MLENGTH), firstName(MLENGTH), middleName(MLENGTH), lastName(MLENGTH), bornYear(2005) {}
 
-    Person::Person(PersonID id, MyString firstName, MyString middleName, MyString lastName, int birthAge )
+    Person::Person(PersonID id, MyString firstName, MyString middleName, MyString lastName, int birthAge)
     {
         if(id.GetLength() > MLENGTH || firstName.GetLength() > MLENGTH || middleName.GetLength() > MLENGTH)
             throw "length string more than MLENGTH";
@@ -14,6 +14,7 @@
         this->firstName = firstName;
         this->middleName = middleName;
         this->lastName = lastName;
+        bornYear = birthAge;
     }
 
     Person::Person(const Person &person)
@@ -84,7 +85,8 @@
 
     std::ostream & operator<<(std::ostream &out, const Person &person)
     {
-        return out << "Person id:" << person.id << "firstName: " << person.firstName << "middleName: " << person.middleName << "lastName: " << person.lastName << "bornYear: " << person.bornYear << std::endl;
+        //return out << "Person id:" << person.id << "firstName: " << person.firstName << "middleName: " << person.middleName << "lastName: " << person.lastName << "bornYear: " << person.bornYear << std::endl;
+        return out <<std::endl << person.id <<std::endl << person.firstName <<std::endl << person.middleName << std::endl << person.lastName << std::endl << person.bornYear << std::endl;
     }
 
     bool Person::operator==(Person man)

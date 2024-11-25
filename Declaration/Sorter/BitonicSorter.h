@@ -15,6 +15,25 @@ public:
 
     void Sort(Sequence<Type>* seq) override
     {
+         auto IsPower2{ [](int size)->bool //checkSizeSeq 
+        {
+            if(size == 0)
+                return true;
+            while(size != 1)
+            {
+                if(size % 2 != 0)
+                {
+                    return false;
+                }
+                size = size / 2;
+            }
+
+            return true;
+
+        }};
+        if(!IsPower2(seq->GetLength()))
+            throw "size of seq must be power of 2";
+
         BitonicSort(seq, 0, seq->GetLength(), 1);
     }
 private:

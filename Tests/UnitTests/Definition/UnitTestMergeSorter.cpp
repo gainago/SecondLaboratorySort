@@ -14,7 +14,7 @@ void HandWrittenMergeTests()
     MergeSorter<int> mSorter(cmpInt);
     mSorter.Sort(seq);
     
-    assert(SeqIsCorrectlySorted<int>(seq, cmpInt));
+    assert(CheckCorrectlySorted<int>(seq, cmpInt));
     delete seq;
 
     // Sequence<int> *seq2 = new MutableArraySequence<int>;
@@ -29,11 +29,11 @@ void AutomaticallyGeneratedDataMergeTests()
     Sequence<int> *seq = GenerateArraySequenceInt(100);
     MergeSorter<int> mSorter(cmpInt);
     mSorter.Sort(seq);
-    assert(SeqIsCorrectlySorted<int>(seq, cmpInt));
+    assert(CheckCorrectlySorted<int>(seq, cmpInt));
     delete seq;
 
     Sequence<int> *seq2 = GenerateArraySequenceInt(0);
     mSorter.Sort(seq2);
-    assert(SeqIsCorrectlySorted<int>(seq2, cmpInt));
+    assert(CheckCorrectlySorted<int>(seq2, cmpInt));
     delete seq2;
 }

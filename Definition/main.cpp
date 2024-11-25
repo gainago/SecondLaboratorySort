@@ -9,15 +9,28 @@
 // #include "ArraySequence.h"
 // #include "DynamicArray.h"
 // #include "Person.h"
-// #include "GetNamesAndSournamesToMyString.h" 
-// #include "MyString.h"
+ //#include "GetNamesAndSournamesToMyString.h" 
+ #include "MyString.h"
 // #include "WriteIntToFile.h"
-// #include "WritePersonToFile.h"
-#include <iostream>
+ //#include "WritePersonToFile.h"
+//#include <iostream>
 // #include <fstream>
 #include "UnitTests.h"
-#include "Sequence.h"
-#include "ArraySequence.h"
+//#include "Sequence.h"
+//#include "ArraySequence.h"
+#include "WriteIntToFile.h"
+//#include  "FileTest.h"
+//#include "Comporators.h"
+//#include "BubbleSorter.h"
+//#include "LoadTestDynamicArrayIntFile.h"
+//#include "LoadTestFromFilePerson.h"
+#include "StartLoadTests.h"
+#include "UnitTests.h"
+#include <QApplication>
+#include <iostream>
+
+
+
 
 int main(int argc, char** argv)
 {
@@ -56,36 +69,68 @@ int main(int argc, char** argv)
 
     //td::cout << string;
     //WriteIntToFile(100500);
-    //DynamicArray<MyString> *Names = nullptr;
-    //DynamicArray<MyString> *Surnames = nullptr;
-
-    /*try{
-    //Names = GetNamesToMyString();
-    //Surnames = GetSurnamesToMyString();
-    //WritePersonToFile(99882960, Names, Surnames);
-    //delete Names;
-    //delete Surnames;
-    WriteIntToFile(2561651455);
-    }
-    catch(char const* sh)
+    /*DynamicArray<MyString> *Names = nullptr;
+    DynamicArray<MyString> *Surnames = nullptr;
+    Names = GetNamesToMyString();
+    Surnames = GetSurnamesToMyString();*/
+    /*for(int i = 32; i <= 1000000; i*=2)
     {
-        std::cout << sh;
+        WriteIntToFile(i);
+       try{
+        
+        //WritePersonToFile(i, Names, Surnames);
+        }
+        catch(char const* sh)
+        {
+            std::cout << sh;
+        }
     }*/
+        /*try{
+        //Names = GetNamesToMyString();
+        //Surnames = GetSurnamesToMyString();
+        //WritePersonToFile(99882960, Names, Surnames);
+        //delete Names;
+        //delete Surnames;
+        WriteIntToFile(i);
+        }
+        catch(char const* sh)
+        {
+            std::cout << sh;
+        }*/
+    
    //std::cout << argv[0];
-    // HandWrittenBubbleTests();
-    // AutomaticallyGeneratedDataBubbleTests();
-    // HandWrittenQuickTests();
-    // AutomaticallyGeneratedDataQuickTests();
-    // HandWrittenMergeTests();
-    // AutomaticallyGeneratedDataMergeTests();
-    // HandWrittenInsertionTests();
-    // AutomaticallyGeneratedDataInsertionTests();
-    // HandWrittenPiramidTests();
-    // AutomaticallyGeneratedDataPiramidTests();
-    // HandWrittenShellTests();
-    // AutomaticallyGeneratedDataShellTests();
-    // HandWrittenBitonicTests();
-    // AutomaticallyGeneratedDataBitonicTests();
-    UnitTests();
-    std::cout << "HELLO NAHUI" << std::endl;
+     UnitTests();
+    //UnitTests();
+    //std::cout << "HELLO NAHUI" << std::endl;
+    /*Sequence<Person*> *seq = new MutableArraySequence<Person*>;
+    MyString strName("GeneratedPerson1000");
+    BubbleSorter<Person*> sort(cmpPointerPerson);
+    double time;
+    try{
+        time = LoadTestFromFilePerson(strName, seq, &sort);
+        //time = LoadTestDynamicArrayIntFile(strName);
+    }
+    catch(const char * str)
+    {
+        std:: cout << str;
+    }
+    delete seq;
+
+     std::cout << std::endl << "time : " << time << std::endl;*/
+   QApplication a(argc, argv);
+    
+    StartLoadTests();
+   
+    return a.exec();
+    /*while(1){
+    char buf[41];
+    std::cout << "input string" << std::endl;
+    std::cin >>buf;
+    double d = foo(buf);
+    std::cout << "double is = " << d << std::endl;
+
+    }*/
+
+    
+
 }
