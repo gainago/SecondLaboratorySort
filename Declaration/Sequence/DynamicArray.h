@@ -52,7 +52,7 @@ public:
         this->capacity_ = 0;
     }
 
-    T const & Get(int index)
+    T const & Get(int index) const
     {
         if (index < 0 || index >= this->capacity_)
         {
@@ -99,6 +99,7 @@ public:
         }
         return elements_[index];
     }
+
     void DeleteElement(int index)
     {
         if(index >= capacity_ || index < 0)

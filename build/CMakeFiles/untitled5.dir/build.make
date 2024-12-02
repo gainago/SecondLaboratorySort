@@ -104,74 +104,22 @@ CMakeFiles/untitled5.dir/Definition/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled5.dir/Definition/main.cpp.s"
 	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp -o CMakeFiles/untitled5.dir/Definition/main.cpp.s
 
-CMakeFiles/untitled5.dir/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.o: CMakeFiles/untitled5.dir/flags.make
-CMakeFiles/untitled5.dir/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp
-CMakeFiles/untitled5.dir/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.o: CMakeFiles/untitled5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled5.dir/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled5.dir/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.o -MF CMakeFiles/untitled5.dir/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.o.d -o CMakeFiles/untitled5.dir/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp
-
-CMakeFiles/untitled5.dir/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled5.dir/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp > CMakeFiles/untitled5.dir/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.i
-
-CMakeFiles/untitled5.dir/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled5.dir/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp -o CMakeFiles/untitled5.dir/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.s
-
-CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/StartLoadTests.cpp.o: CMakeFiles/untitled5.dir/flags.make
-CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/StartLoadTests.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Definition/StartLoadTests.cpp
-CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/StartLoadTests.cpp.o: CMakeFiles/untitled5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/StartLoadTests.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/StartLoadTests.cpp.o -MF CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/StartLoadTests.cpp.o.d -o CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/StartLoadTests.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Definition/StartLoadTests.cpp
-
-CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/StartLoadTests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/StartLoadTests.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Definition/StartLoadTests.cpp > CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/StartLoadTests.cpp.i
-
-CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/StartLoadTests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/StartLoadTests.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Definition/StartLoadTests.cpp -o CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/StartLoadTests.cpp.s
-
-CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.o: CMakeFiles/untitled5.dir/flags.make
-CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp
-CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.o: CMakeFiles/untitled5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.o -MF CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.o.d -o CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp
-
-CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp > CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.i
-
-CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp -o CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.s
-
 # Object files for target untitled5
 untitled5_OBJECTS = \
 "CMakeFiles/untitled5.dir/untitled5_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/untitled5.dir/Definition/main.cpp.o" \
-"CMakeFiles/untitled5.dir/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.o" \
-"CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/StartLoadTests.cpp.o" \
-"CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.o"
+"CMakeFiles/untitled5.dir/Definition/main.cpp.o"
 
 # External object files for target untitled5
 untitled5_EXTERNAL_OBJECTS =
 
 untitled5: CMakeFiles/untitled5.dir/untitled5_autogen/mocs_compilation.cpp.o
 untitled5: CMakeFiles/untitled5.dir/Definition/main.cpp.o
-untitled5: CMakeFiles/untitled5.dir/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.o
-untitled5: CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/StartLoadTests.cpp.o
-untitled5: CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.o
 untitled5: CMakeFiles/untitled5.dir/build.make
 untitled5: libuntitled5_TypesOfData_lib.so
 untitled5: libuntitled5_Function_For_Tests_lib.so
-untitled5: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
-untitled5: /home/goshagaina/Qwt/qwt-6.3.0/lib/libqwt.so.6.3.0
 untitled5: libuntitled5_Unit_Tests.so
-untitled5: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13
-untitled5: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
 untitled5: CMakeFiles/untitled5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable untitled5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable untitled5"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled5.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

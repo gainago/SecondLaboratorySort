@@ -12,8 +12,8 @@ Sequence<Person>* GenerateListSequencePerson(int const count, DynamicArray<MyStr
     srand(time(NULL));
     for(int i = 0; i < count; i++)
     {
-        int indexName = (rand() % 753);
-        int indexSurname = (rand() % 14651);
+        int indexName = (rand() % Names->GetCapacity());
+        int indexSurname = (rand() % Surnames->GetCapacity());
         Person tmpPerson(nullptr, Names->Get(indexName), Surnames->Get(abs(indexSurname - indexName )), Surnames->Get(indexSurname), i);
         seq->Set(i, tmpPerson);
     }

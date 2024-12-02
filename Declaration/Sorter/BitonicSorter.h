@@ -13,7 +13,7 @@ public:
     BitonicSorter(bool (*cmp)(Type const &, Type const &)) : Sorter<Type>(cmp) {}
     BitonicSorter(BitonicSorter<Type> const & other) : Sorter<Type>(other.cmp_) {}
 
-    void Sort(Sequence<Type>* seq) override
+    void Sort(Sequence<Type>& seq) override
     {
          auto IsPower2{ [](int size)->bool //checkSizeSeq 
         {
@@ -31,22 +31,22 @@ public:
             return true;
 
         }};
-        if(!IsPower2(seq->GetLength()))
+        if(!IsPower2(seq.GetLength()))
             throw "size of seq must be power of 2";
 
-        BitonicSort(seq, 0, seq->GetLength(), 1);
+        BitonicSort(seq, 0, seq.GetLength(), 1);
     }
 private:
 
     // void sortdir(int a[], int i, int j, int dir) { //возрастание или убывание
     //      if (dir == (a[i] > a[j])) swap(a[i], a[j]);
     // }
-    void SortOrder(Sequence<Type>* seq, int i, int j, int order)
+    void SortOrder(Sequence<Type>& seq, int i, int j, int order)
     {
-        if( order == this->cmp_(seq->Get(j), seq->Get(i))){
-            Type tmp = seq->Get(i);
-            seq->Set(i, seq->Get(j));
-            seq->Set(j, tmp);
+        if( order == this->cmp_(seq.Get(j), seq.Get(i))){
+            Type tmp = seq.Get(i);
+            seq.Set(i, seq.Get(j));
+            seq.Set(j, tmp);
         }
     }
 
@@ -64,7 +64,7 @@ private:
     //     merge(a, low + k, k, dir);
     //     }
     // }
-    void Merge(Sequence<Type>* seq, int lowIndex, int quantity, int order)
+    void Merge(Sequence<Type>& seq, int lowIndex, int quantity, int order)
     {
         if(quantity > 1){
             int k = quantity / 2;
@@ -92,7 +92,7 @@ private:
     //     merge(a, low, cnt, dir);
     //     }
     // }
-    void BitonicSort(Sequence<Type>* seq, int lowIndex, int quantity, bool order)
+    void BitonicSort(Sequence<Type>& seq, int lowIndex, int quantity, bool order)
     {
         if(quantity > 1){
             int k = quantity / 2;

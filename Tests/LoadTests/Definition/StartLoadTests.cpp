@@ -35,7 +35,9 @@ void StartLoadTests()
     rTimePlot->setPalette(p);
     rTimePlot->show();
 
-    for(int i = 1000; i <= 500000; i+=1000)
+    for(int i = 1000; i <= 500000; i+=1000) //слишком часто замеряю
+                                            //не анализирует поведение случайной и отсортированной и обратно отсортированной
+                                            //последовательностях так же интересно почти отсортированные
     {
         std::cout << i << std::endl;
         MyString fileName("GeneratedInt");
@@ -48,20 +50,6 @@ void StartLoadTests()
         double timeMerge = 0;
         double timeBitonic = 0;
 
-        /*auto IsPower2{ [](int size)->bool //checkSizeSeq 
-        {
-            while(size != 1)
-            {
-                if(size % 2 != 0)
-                {
-                    return false;
-                }
-                size = size / 2;
-            }
-
-            return true;
-
-        }};*/
 
         
         try{

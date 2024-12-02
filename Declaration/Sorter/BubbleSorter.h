@@ -10,7 +10,7 @@ public:
     BubbleSorter(bool (*cmp)(Type const &, Type const &)) : Sorter<Type>(cmp) {}
     BubbleSorter(BubbleSorter<Type> const & other) : Sorter<Type>(other.cmp_) {}
 
-    void Sort(Sequence<Type>* seq) override
+    void Sort(Sequence<Type>& seq) override
     {
         //Sequence<Type>* seqToSort = seq->GetInstance();// так делать плохо потому что пользователь при получении результата
                                                         //может дважды очистить пямять 
@@ -22,17 +22,17 @@ public:
     }
 private:
 
-    void BubbleSort(Sequence<Type>* seq)
+    void BubbleSort(Sequence<Type>& seq)
     {
-        for(int i = 0; i < seq->GetLength(); i++)
+        for(int i = 0; i < seq.GetLength(); i++)
         {
-            for(int j = 0; j < seq->GetLength() - i - 1; j++)
+            for(int j = 0; j < seq.GetLength() - i - 1; j++)
             {
-                if(this->cmp_(seq->Get(j + 1), seq->Get(j))){
+                if(this->cmp_(seq.Get(j + 1), seq.Get(j))){
 
-                    Type tmp = seq->Get(j);
-                    seq->Set(j, seq->Get(j + 1));
-                    seq->Set(j + 1, tmp);
+                    Type tmp = seq.Get(j);
+                    seq.Set(j, seq.Get(j + 1));
+                    seq.Set(j + 1, tmp);
                 }
             }
             //std::cout << "i = " << i << std::endl;

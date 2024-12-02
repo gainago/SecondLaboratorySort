@@ -92,11 +92,9 @@
 		"/home/goshagaina/Qwt/qwt-6.3.0/src",
 		"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration",
 		"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition",
-		"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Ploat/Declaration",
-		"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Declaration",
 		"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sorter",
-		"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/TypesOfData",
 		"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence",
+		"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/TypesOfData",
 		"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Declaration",
 		"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Declaration",
 		"/usr/include/c++/13",
@@ -133,42 +131,7 @@
 	"SOURCES" : 
 	[
 		[
-			"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestShellSorter.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTests.cpp",
+			"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTests2.cpp",
 			"MU",
 			null
 		]

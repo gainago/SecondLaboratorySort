@@ -1,13 +1,6 @@
 untitled5_Unit_Tests_autogen/timestamp: \
 	/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/CMakeLists.txt \
-	/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp \
-	/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp \
-	/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp \
-	/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp \
-	/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp \
-	/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp \
-	/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestShellSorter.cpp \
-	/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTests.cpp \
+	/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTests2.cpp \
 	/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
 	/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles/3.28.3/CMakeSystem.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake \

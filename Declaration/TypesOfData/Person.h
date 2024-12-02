@@ -4,8 +4,7 @@
 #include <iostream>
 #include "MyString.h"
 
-//count of symbols without '\0'
-#define MLENGTH 40 
+
 
 typedef MyString PersonID; // 1 Person ~ 215 байт
 
@@ -18,6 +17,7 @@ private:
     MyString middleName;
     MyString lastName;
     int bornYear;
+    static int const maxLength = 40;    //count of symbols without '\0'
 
 public:
     Person();
@@ -43,6 +43,8 @@ public:
     //void SetLastName();
 
     int GetBornYear() const;
+
+    static int GetMaxLength();
 
     //void SetBornAge();
 

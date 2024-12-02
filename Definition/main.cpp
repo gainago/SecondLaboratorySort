@@ -15,19 +15,24 @@
  //#include "WritePersonToFile.h"
 //#include <iostream>
 // #include <fstream>
-#include "UnitTests.h"
+//#include "UnitTests.h"
 //#include "Sequence.h"
 //#include "ArraySequence.h"
-#include "WriteIntToFile.h"
+//#include "WriteIntToFile.h"
+#include "ArraySequence.h"
 //#include  "FileTest.h"
 //#include "Comporators.h"
 //#include "BubbleSorter.h"
 //#include "LoadTestDynamicArrayIntFile.h"
 //#include "LoadTestFromFilePerson.h"
-#include "StartLoadTests.h"
-#include "UnitTests.h"
-#include <QApplication>
+//#include "StartLoadTests.h"
+//#include "UnitTests.h"
+//#include <QApplication>
 #include <iostream>
+#include "BubbleSorter.h"
+#include "MergeSorter.h"
+#include "Comporators.h"
+#include "UnitTests2.h"
 
 
 
@@ -99,7 +104,7 @@ int main(int argc, char** argv)
         }*/
     
    //std::cout << argv[0];
-     UnitTests();
+    //UnitTests();
     //UnitTests();
     //std::cout << "HELLO NAHUI" << std::endl;
     /*Sequence<Person*> *seq = new MutableArraySequence<Person*>;
@@ -117,11 +122,25 @@ int main(int argc, char** argv)
     delete seq;
 
      std::cout << std::endl << "time : " << time << std::endl;*/
-   QApplication a(argc, argv);
+   //QApplication a(argc, argv);
     
-    StartLoadTests();
+    //StartLoadTests();
    
-    return a.exec();
+    //return a.exec();
+    /*int arr[5] = {1, 2, 3, -1, -100};
+    MutableArraySequence<int> seq(arr, 5);
+
+    Sequence<int>* ptr = new MutableArraySequence<int>(arr, 5);
+
+    MergeSorter<int> mSorter(cmpInt);
+    mSorter.Sort((*ptr));
+
+    for(int i = 0; i < ptr->GetLength(); i++)
+    {
+        std::cout << ptr->Get(i) << std::endl;
+    }*/
+   //UnitTestsInt2();
+   UnitTestsPerson2();
     /*while(1){
     char buf[41];
     std::cout << "input string" << std::endl;

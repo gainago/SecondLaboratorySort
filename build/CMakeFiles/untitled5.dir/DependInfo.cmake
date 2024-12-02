@@ -10,9 +10,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "untitled5_autogen/timestamp" "custom" "untitled5_autogen/deps"
   "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp" "CMakeFiles/untitled5.dir/Definition/main.cpp.o" "gcc" "CMakeFiles/untitled5.dir/Definition/main.cpp.o.d"
-  "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp" "CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.o" "gcc" "CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.o.d"
-  "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Definition/StartLoadTests.cpp" "CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/StartLoadTests.cpp.o" "gcc" "CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/StartLoadTests.cpp.o.d"
-  "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp" "CMakeFiles/untitled5.dir/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.o" "gcc" "CMakeFiles/untitled5.dir/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.o.d"
   "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/untitled5_autogen/mocs_compilation.cpp" "CMakeFiles/untitled5.dir/untitled5_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/untitled5.dir/untitled5_autogen/mocs_compilation.cpp.o.d"
   )
 

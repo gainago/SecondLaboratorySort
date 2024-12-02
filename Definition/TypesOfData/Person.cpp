@@ -4,11 +4,11 @@
 
 
 
-    Person::Person() : id(MLENGTH), firstName(MLENGTH), middleName(MLENGTH), lastName(MLENGTH), bornYear(2005) {}
+    Person::Person() : id(maxLength), firstName(maxLength), middleName(maxLength), lastName(maxLength), bornYear(2005) {}
 
     Person::Person(PersonID id, MyString firstName, MyString middleName, MyString lastName, int birthAge)
     {
-        if(id.GetLength() > MLENGTH || firstName.GetLength() > MLENGTH || middleName.GetLength() > MLENGTH)
+        if(id.GetLength() > maxLength || firstName.GetLength() > maxLength || middleName.GetLength() > maxLength)
             throw "length string more than MLENGTH";
         this->id = id;
         this->firstName = firstName;
@@ -50,28 +50,33 @@
         return this->bornYear;
     }
 
+    int Person::GetMaxLength()
+    {
+        return maxLength;
+    }
+
      std::istream & operator>>(std::istream &in, Person &person)
     {
-        char buffer[MLENGTH + 1];
-        std::cout << "Enter first name( max " << MLENGTH << " symbols) :" << std::endl;
-        MyStringFunction::GetCharMassive(buffer, MLENGTH);
+        char buffer[Person::GetMaxLength() + 1];
+        std::cout << "Enter first name( max " << Person::GetMaxLength() << " symbols) :" << std::endl;
+        MyStringFunction::GetCharMassive(buffer, Person::GetMaxLength());
         MyString tmpStringFirstName(buffer);
         person.firstName = tmpStringFirstName;
 
-        std::cout << "Enter middle name( max " << MLENGTH << " symbols) :" << std::endl;
+        std::cout << "Enter middle name( max " << Person::GetMaxLength() << " symbols) :" << std::endl;
         //in >> person.middleName;
-        MyStringFunction::GetCharMassive(buffer, MLENGTH);
+        MyStringFunction::GetCharMassive(buffer, Person::GetMaxLength());
         MyString tmpStringMiddleName(buffer);
         person.middleName = tmpStringMiddleName;
 
-        std::cout << "Enter last name( max " << MLENGTH << " symbols) :" << std::endl;
+        std::cout << "Enter last name( max " << Person::GetMaxLength() << " symbols) :" << std::endl;
         //in >> person.lastName;
-        MyStringFunction::GetCharMassive(buffer, MLENGTH);
+        MyStringFunction::GetCharMassive(buffer, Person::GetMaxLength());
         MyString tmpStringLastName(buffer);
         person.lastName = tmpStringLastName;
 
-        std::cout << "Enter id( max " << MLENGTH << " symbols) :" << std::endl;
-        MyStringFunction::GetCharMassive(buffer, MLENGTH);
+        std::cout << "Enter id( max " << Person::GetMaxLength() << " symbols) :" << std::endl;
+        MyStringFunction::GetCharMassive(buffer, Person::GetMaxLength());
         MyString tmpStringId(buffer);
         person.id = tmpStringId;
         //in >> person.id;

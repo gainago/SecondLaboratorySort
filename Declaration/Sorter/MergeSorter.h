@@ -10,16 +10,16 @@ public:
     MergeSorter(bool (*cmp)(Type const &, Type const &)) : Sorter<Type>(cmp) {}
     MergeSorter(MergeSorter<Type> const & other) : Sorter<Type>(other.cmp_) {}
 
-    void Sort(Sequence<Type>* seq) override
+    void Sort(Sequence<Type>& seq) override
     {
         //Sequence<Type>* seqToSort = seq->GetInstance();
-        if(seq->GetLength() <= 1)
+        if(seq.GetLength() <= 1)
             return;
-        Sequence<Type>* seqResult = mergeSortFirst(seq);
+        Sequence<Type>* seqResult = mergeSortFirst(&seq);
 
-        for(int i = 0; i < seq->GetLength(); i++)
+        for(int i = 0; i < seq.GetLength(); i++)
         {
-            seq->Set(i, seqResult->Get(i));
+            seq.Set(i, seqResult->Get(i));
         }
 
         delete seqResult;

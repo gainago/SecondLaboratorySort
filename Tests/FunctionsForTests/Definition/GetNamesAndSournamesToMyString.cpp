@@ -14,7 +14,7 @@ DynamicArray<MyString>* GetNamesToMyString()
         throw "can not open male_names_rus.txt";
     }
 
-    char buffer[MLENGTH];
+    char buffer[Person::GetMaxLength()];
     for(int i = 0; i <= 735; i++)
     {
         ifs >> buffer;
@@ -35,7 +35,7 @@ DynamicArray<MyString>* GetSurnamesToMyString()
         throw "can not open male_surnames_rus.txt";
     }
 
-    char buffer[MLENGTH];
+    char buffer[Person::GetMaxLength()];
     for(int i = 0; i <= 14651; i++)
     {
         ifs >> buffer;

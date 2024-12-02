@@ -66,8 +66,8 @@ include CMakeFiles/untitled5_Function_For_Tests_lib_autogen_timestamp_deps.dir/c
 # Include the progress variables for this target.
 include CMakeFiles/untitled5_Function_For_Tests_lib_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/untitled5_Function_For_Tests_lib_autogen_timestamp_deps: /usr/lib/qt5/bin/moc
 CMakeFiles/untitled5_Function_For_Tests_lib_autogen_timestamp_deps: /usr/lib/qt5/bin/uic
+CMakeFiles/untitled5_Function_For_Tests_lib_autogen_timestamp_deps: /usr/lib/qt5/bin/moc
 
 untitled5_Function_For_Tests_lib_autogen_timestamp_deps: CMakeFiles/untitled5_Function_For_Tests_lib_autogen_timestamp_deps
 untitled5_Function_For_Tests_lib_autogen_timestamp_deps: CMakeFiles/untitled5_Function_For_Tests_lib_autogen_timestamp_deps.dir/build.make

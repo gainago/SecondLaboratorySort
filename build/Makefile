@@ -536,269 +536,29 @@ Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.s
 .PHONY : Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.s
 
-Tests/LoadTests/Definition/LoadTestFromFileInt.o: Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.o
-.PHONY : Tests/LoadTests/Definition/LoadTestFromFileInt.o
+Tests/UnitTests/Definition/UnitTests2.o: Tests/UnitTests/Definition/UnitTests2.cpp.o
+.PHONY : Tests/UnitTests/Definition/UnitTests2.o
 
 # target to build an object file
-Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.o
-.PHONY : Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.o
+Tests/UnitTests/Definition/UnitTests2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests2.cpp.o
+.PHONY : Tests/UnitTests/Definition/UnitTests2.cpp.o
 
-Tests/LoadTests/Definition/LoadTestFromFileInt.i: Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.i
-.PHONY : Tests/LoadTests/Definition/LoadTestFromFileInt.i
-
-# target to preprocess a source file
-Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.i
-.PHONY : Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.i
-
-Tests/LoadTests/Definition/LoadTestFromFileInt.s: Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.s
-.PHONY : Tests/LoadTests/Definition/LoadTestFromFileInt.s
-
-# target to generate assembly for a file
-Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.s
-.PHONY : Tests/LoadTests/Definition/LoadTestFromFileInt.cpp.s
-
-Tests/LoadTests/Definition/StartLoadTests.o: Tests/LoadTests/Definition/StartLoadTests.cpp.o
-.PHONY : Tests/LoadTests/Definition/StartLoadTests.o
-
-# target to build an object file
-Tests/LoadTests/Definition/StartLoadTests.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/StartLoadTests.cpp.o
-.PHONY : Tests/LoadTests/Definition/StartLoadTests.cpp.o
-
-Tests/LoadTests/Definition/StartLoadTests.i: Tests/LoadTests/Definition/StartLoadTests.cpp.i
-.PHONY : Tests/LoadTests/Definition/StartLoadTests.i
+Tests/UnitTests/Definition/UnitTests2.i: Tests/UnitTests/Definition/UnitTests2.cpp.i
+.PHONY : Tests/UnitTests/Definition/UnitTests2.i
 
 # target to preprocess a source file
-Tests/LoadTests/Definition/StartLoadTests.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/StartLoadTests.cpp.i
-.PHONY : Tests/LoadTests/Definition/StartLoadTests.cpp.i
+Tests/UnitTests/Definition/UnitTests2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests2.cpp.i
+.PHONY : Tests/UnitTests/Definition/UnitTests2.cpp.i
 
-Tests/LoadTests/Definition/StartLoadTests.s: Tests/LoadTests/Definition/StartLoadTests.cpp.s
-.PHONY : Tests/LoadTests/Definition/StartLoadTests.s
-
-# target to generate assembly for a file
-Tests/LoadTests/Definition/StartLoadTests.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/Tests/LoadTests/Definition/StartLoadTests.cpp.s
-.PHONY : Tests/LoadTests/Definition/StartLoadTests.cpp.s
-
-Tests/LoadTests/Ploat/Definition/realtimeplot.o: Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.o
-.PHONY : Tests/LoadTests/Ploat/Definition/realtimeplot.o
-
-# target to build an object file
-Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.o
-.PHONY : Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.o
-
-Tests/LoadTests/Ploat/Definition/realtimeplot.i: Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.i
-.PHONY : Tests/LoadTests/Ploat/Definition/realtimeplot.i
-
-# target to preprocess a source file
-Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.i
-.PHONY : Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.i
-
-Tests/LoadTests/Ploat/Definition/realtimeplot.s: Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.s
-.PHONY : Tests/LoadTests/Ploat/Definition/realtimeplot.s
+Tests/UnitTests/Definition/UnitTests2.s: Tests/UnitTests/Definition/UnitTests2.cpp.s
+.PHONY : Tests/UnitTests/Definition/UnitTests2.s
 
 # target to generate assembly for a file
-Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5.dir/build.make CMakeFiles/untitled5.dir/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.s
-.PHONY : Tests/LoadTests/Ploat/Definition/realtimeplot.cpp.s
-
-Tests/UnitTests/Definition/UnitTestBitonicSorter.o: Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.o
-.PHONY : Tests/UnitTests/Definition/UnitTestBitonicSorter.o
-
-# target to build an object file
-Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.o
-.PHONY : Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.o
-
-Tests/UnitTests/Definition/UnitTestBitonicSorter.i: Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.i
-.PHONY : Tests/UnitTests/Definition/UnitTestBitonicSorter.i
-
-# target to preprocess a source file
-Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.i
-.PHONY : Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.i
-
-Tests/UnitTests/Definition/UnitTestBitonicSorter.s: Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.s
-.PHONY : Tests/UnitTests/Definition/UnitTestBitonicSorter.s
-
-# target to generate assembly for a file
-Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.s
-.PHONY : Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.s
-
-Tests/UnitTests/Definition/UnitTestBubbleSorter.o: Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.o
-.PHONY : Tests/UnitTests/Definition/UnitTestBubbleSorter.o
-
-# target to build an object file
-Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.o
-.PHONY : Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.o
-
-Tests/UnitTests/Definition/UnitTestBubbleSorter.i: Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.i
-.PHONY : Tests/UnitTests/Definition/UnitTestBubbleSorter.i
-
-# target to preprocess a source file
-Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.i
-.PHONY : Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.i
-
-Tests/UnitTests/Definition/UnitTestBubbleSorter.s: Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.s
-.PHONY : Tests/UnitTests/Definition/UnitTestBubbleSorter.s
-
-# target to generate assembly for a file
-Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.s
-.PHONY : Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.s
-
-Tests/UnitTests/Definition/UnitTestInsertionSorter.o: Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.o
-.PHONY : Tests/UnitTests/Definition/UnitTestInsertionSorter.o
-
-# target to build an object file
-Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.o
-.PHONY : Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.o
-
-Tests/UnitTests/Definition/UnitTestInsertionSorter.i: Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.i
-.PHONY : Tests/UnitTests/Definition/UnitTestInsertionSorter.i
-
-# target to preprocess a source file
-Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.i
-.PHONY : Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.i
-
-Tests/UnitTests/Definition/UnitTestInsertionSorter.s: Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.s
-.PHONY : Tests/UnitTests/Definition/UnitTestInsertionSorter.s
-
-# target to generate assembly for a file
-Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.s
-.PHONY : Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.s
-
-Tests/UnitTests/Definition/UnitTestMergeSorter.o: Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.o
-.PHONY : Tests/UnitTests/Definition/UnitTestMergeSorter.o
-
-# target to build an object file
-Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.o
-.PHONY : Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.o
-
-Tests/UnitTests/Definition/UnitTestMergeSorter.i: Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.i
-.PHONY : Tests/UnitTests/Definition/UnitTestMergeSorter.i
-
-# target to preprocess a source file
-Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.i
-.PHONY : Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.i
-
-Tests/UnitTests/Definition/UnitTestMergeSorter.s: Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.s
-.PHONY : Tests/UnitTests/Definition/UnitTestMergeSorter.s
-
-# target to generate assembly for a file
-Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.s
-.PHONY : Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.s
-
-Tests/UnitTests/Definition/UnitTestPiramidSorter.o: Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.o
-.PHONY : Tests/UnitTests/Definition/UnitTestPiramidSorter.o
-
-# target to build an object file
-Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.o
-.PHONY : Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.o
-
-Tests/UnitTests/Definition/UnitTestPiramidSorter.i: Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.i
-.PHONY : Tests/UnitTests/Definition/UnitTestPiramidSorter.i
-
-# target to preprocess a source file
-Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.i
-.PHONY : Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.i
-
-Tests/UnitTests/Definition/UnitTestPiramidSorter.s: Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.s
-.PHONY : Tests/UnitTests/Definition/UnitTestPiramidSorter.s
-
-# target to generate assembly for a file
-Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.s
-.PHONY : Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.s
-
-Tests/UnitTests/Definition/UnitTestQuickSorter.o: Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.o
-.PHONY : Tests/UnitTests/Definition/UnitTestQuickSorter.o
-
-# target to build an object file
-Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.o
-.PHONY : Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.o
-
-Tests/UnitTests/Definition/UnitTestQuickSorter.i: Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.i
-.PHONY : Tests/UnitTests/Definition/UnitTestQuickSorter.i
-
-# target to preprocess a source file
-Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.i
-.PHONY : Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.i
-
-Tests/UnitTests/Definition/UnitTestQuickSorter.s: Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.s
-.PHONY : Tests/UnitTests/Definition/UnitTestQuickSorter.s
-
-# target to generate assembly for a file
-Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.s
-.PHONY : Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.s
-
-Tests/UnitTests/Definition/UnitTestShellSorter.o: Tests/UnitTests/Definition/UnitTestShellSorter.cpp.o
-.PHONY : Tests/UnitTests/Definition/UnitTestShellSorter.o
-
-# target to build an object file
-Tests/UnitTests/Definition/UnitTestShellSorter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestShellSorter.cpp.o
-.PHONY : Tests/UnitTests/Definition/UnitTestShellSorter.cpp.o
-
-Tests/UnitTests/Definition/UnitTestShellSorter.i: Tests/UnitTests/Definition/UnitTestShellSorter.cpp.i
-.PHONY : Tests/UnitTests/Definition/UnitTestShellSorter.i
-
-# target to preprocess a source file
-Tests/UnitTests/Definition/UnitTestShellSorter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestShellSorter.cpp.i
-.PHONY : Tests/UnitTests/Definition/UnitTestShellSorter.cpp.i
-
-Tests/UnitTests/Definition/UnitTestShellSorter.s: Tests/UnitTests/Definition/UnitTestShellSorter.cpp.s
-.PHONY : Tests/UnitTests/Definition/UnitTestShellSorter.s
-
-# target to generate assembly for a file
-Tests/UnitTests/Definition/UnitTestShellSorter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestShellSorter.cpp.s
-.PHONY : Tests/UnitTests/Definition/UnitTestShellSorter.cpp.s
-
-Tests/UnitTests/Definition/UnitTests.o: Tests/UnitTests/Definition/UnitTests.cpp.o
-.PHONY : Tests/UnitTests/Definition/UnitTests.o
-
-# target to build an object file
-Tests/UnitTests/Definition/UnitTests.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests.cpp.o
-.PHONY : Tests/UnitTests/Definition/UnitTests.cpp.o
-
-Tests/UnitTests/Definition/UnitTests.i: Tests/UnitTests/Definition/UnitTests.cpp.i
-.PHONY : Tests/UnitTests/Definition/UnitTests.i
-
-# target to preprocess a source file
-Tests/UnitTests/Definition/UnitTests.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests.cpp.i
-.PHONY : Tests/UnitTests/Definition/UnitTests.cpp.i
-
-Tests/UnitTests/Definition/UnitTests.s: Tests/UnitTests/Definition/UnitTests.cpp.s
-.PHONY : Tests/UnitTests/Definition/UnitTests.s
-
-# target to generate assembly for a file
-Tests/UnitTests/Definition/UnitTests.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests.cpp.s
-.PHONY : Tests/UnitTests/Definition/UnitTests.cpp.s
+Tests/UnitTests/Definition/UnitTests2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled5_Unit_Tests.dir/build.make CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests2.cpp.s
+.PHONY : Tests/UnitTests/Definition/UnitTests2.cpp.s
 
 untitled5_Function_For_Tests_lib_autogen/mocs_compilation.o: untitled5_Function_For_Tests_lib_autogen/mocs_compilation.cpp.o
 .PHONY : untitled5_Function_For_Tests_lib_autogen/mocs_compilation.o
@@ -949,39 +709,9 @@ help:
 	@echo "... Tests/FunctionsForTests/Definition/WritePersonToFile.o"
 	@echo "... Tests/FunctionsForTests/Definition/WritePersonToFile.i"
 	@echo "... Tests/FunctionsForTests/Definition/WritePersonToFile.s"
-	@echo "... Tests/LoadTests/Definition/LoadTestFromFileInt.o"
-	@echo "... Tests/LoadTests/Definition/LoadTestFromFileInt.i"
-	@echo "... Tests/LoadTests/Definition/LoadTestFromFileInt.s"
-	@echo "... Tests/LoadTests/Definition/StartLoadTests.o"
-	@echo "... Tests/LoadTests/Definition/StartLoadTests.i"
-	@echo "... Tests/LoadTests/Definition/StartLoadTests.s"
-	@echo "... Tests/LoadTests/Ploat/Definition/realtimeplot.o"
-	@echo "... Tests/LoadTests/Ploat/Definition/realtimeplot.i"
-	@echo "... Tests/LoadTests/Ploat/Definition/realtimeplot.s"
-	@echo "... Tests/UnitTests/Definition/UnitTestBitonicSorter.o"
-	@echo "... Tests/UnitTests/Definition/UnitTestBitonicSorter.i"
-	@echo "... Tests/UnitTests/Definition/UnitTestBitonicSorter.s"
-	@echo "... Tests/UnitTests/Definition/UnitTestBubbleSorter.o"
-	@echo "... Tests/UnitTests/Definition/UnitTestBubbleSorter.i"
-	@echo "... Tests/UnitTests/Definition/UnitTestBubbleSorter.s"
-	@echo "... Tests/UnitTests/Definition/UnitTestInsertionSorter.o"
-	@echo "... Tests/UnitTests/Definition/UnitTestInsertionSorter.i"
-	@echo "... Tests/UnitTests/Definition/UnitTestInsertionSorter.s"
-	@echo "... Tests/UnitTests/Definition/UnitTestMergeSorter.o"
-	@echo "... Tests/UnitTests/Definition/UnitTestMergeSorter.i"
-	@echo "... Tests/UnitTests/Definition/UnitTestMergeSorter.s"
-	@echo "... Tests/UnitTests/Definition/UnitTestPiramidSorter.o"
-	@echo "... Tests/UnitTests/Definition/UnitTestPiramidSorter.i"
-	@echo "... Tests/UnitTests/Definition/UnitTestPiramidSorter.s"
-	@echo "... Tests/UnitTests/Definition/UnitTestQuickSorter.o"
-	@echo "... Tests/UnitTests/Definition/UnitTestQuickSorter.i"
-	@echo "... Tests/UnitTests/Definition/UnitTestQuickSorter.s"
-	@echo "... Tests/UnitTests/Definition/UnitTestShellSorter.o"
-	@echo "... Tests/UnitTests/Definition/UnitTestShellSorter.i"
-	@echo "... Tests/UnitTests/Definition/UnitTestShellSorter.s"
-	@echo "... Tests/UnitTests/Definition/UnitTests.o"
-	@echo "... Tests/UnitTests/Definition/UnitTests.i"
-	@echo "... Tests/UnitTests/Definition/UnitTests.s"
+	@echo "... Tests/UnitTests/Definition/UnitTests2.o"
+	@echo "... Tests/UnitTests/Definition/UnitTests2.i"
+	@echo "... Tests/UnitTests/Definition/UnitTests2.s"
 	@echo "... untitled5_Function_For_Tests_lib_autogen/mocs_compilation.o"
 	@echo "... untitled5_Function_For_Tests_lib_autogen/mocs_compilation.i"
 	@echo "... untitled5_Function_For_Tests_lib_autogen/mocs_compilation.s"

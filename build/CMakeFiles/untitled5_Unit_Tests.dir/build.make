@@ -90,145 +90,33 @@ CMakeFiles/untitled5_Unit_Tests.dir/untitled5_Unit_Tests_autogen/mocs_compilatio
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled5_Unit_Tests.dir/untitled5_Unit_Tests_autogen/mocs_compilation.cpp.s"
 	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/untitled5_Unit_Tests_autogen/mocs_compilation.cpp -o CMakeFiles/untitled5_Unit_Tests.dir/untitled5_Unit_Tests_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.o: CMakeFiles/untitled5_Unit_Tests.dir/flags.make
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.o: CMakeFiles/untitled5_Unit_Tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.o -MF CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.o.d -o CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp
+CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests2.cpp.o: CMakeFiles/untitled5_Unit_Tests.dir/flags.make
+CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests2.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTests2.cpp
+CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests2.cpp.o: CMakeFiles/untitled5_Unit_Tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests2.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests2.cpp.o -MF CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests2.cpp.o.d -o CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests2.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTests2.cpp
 
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp > CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.i
+CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests2.cpp.i"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTests2.cpp > CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests2.cpp.i
 
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp -o CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.s
-
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.o: CMakeFiles/untitled5_Unit_Tests.dir/flags.make
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.o: CMakeFiles/untitled5_Unit_Tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.o -MF CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.o.d -o CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp
-
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp > CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.i
-
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp -o CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.s
-
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.o: CMakeFiles/untitled5_Unit_Tests.dir/flags.make
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.o: CMakeFiles/untitled5_Unit_Tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.o -MF CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.o.d -o CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp
-
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp > CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.i
-
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp -o CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.s
-
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.o: CMakeFiles/untitled5_Unit_Tests.dir/flags.make
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.o: CMakeFiles/untitled5_Unit_Tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.o -MF CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.o.d -o CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp
-
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp > CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.i
-
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp -o CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.s
-
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.o: CMakeFiles/untitled5_Unit_Tests.dir/flags.make
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.o: CMakeFiles/untitled5_Unit_Tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.o -MF CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.o.d -o CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp
-
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp > CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.i
-
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp -o CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.s
-
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.o: CMakeFiles/untitled5_Unit_Tests.dir/flags.make
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.o: CMakeFiles/untitled5_Unit_Tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.o -MF CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.o.d -o CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp
-
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp > CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.i
-
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp -o CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.s
-
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestShellSorter.cpp.o: CMakeFiles/untitled5_Unit_Tests.dir/flags.make
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestShellSorter.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestShellSorter.cpp
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestShellSorter.cpp.o: CMakeFiles/untitled5_Unit_Tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestShellSorter.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestShellSorter.cpp.o -MF CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestShellSorter.cpp.o.d -o CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestShellSorter.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestShellSorter.cpp
-
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestShellSorter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestShellSorter.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestShellSorter.cpp > CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestShellSorter.cpp.i
-
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestShellSorter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestShellSorter.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTestShellSorter.cpp -o CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestShellSorter.cpp.s
-
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests.cpp.o: CMakeFiles/untitled5_Unit_Tests.dir/flags.make
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTests.cpp
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests.cpp.o: CMakeFiles/untitled5_Unit_Tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests.cpp.o -MF CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests.cpp.o.d -o CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTests.cpp
-
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTests.cpp > CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests.cpp.i
-
-CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTests.cpp -o CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests.cpp.s
+CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests2.cpp.s"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Definition/UnitTests2.cpp -o CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests2.cpp.s
 
 # Object files for target untitled5_Unit_Tests
 untitled5_Unit_Tests_OBJECTS = \
 "CMakeFiles/untitled5_Unit_Tests.dir/untitled5_Unit_Tests_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.o" \
-"CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.o" \
-"CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.o" \
-"CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.o" \
-"CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.o" \
-"CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.o" \
-"CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestShellSorter.cpp.o" \
-"CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests.cpp.o"
+"CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests2.cpp.o"
 
 # External object files for target untitled5_Unit_Tests
 untitled5_Unit_Tests_EXTERNAL_OBJECTS =
 
 libuntitled5_Unit_Tests.so: CMakeFiles/untitled5_Unit_Tests.dir/untitled5_Unit_Tests_autogen/mocs_compilation.cpp.o
-libuntitled5_Unit_Tests.so: CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBitonicSorter.cpp.o
-libuntitled5_Unit_Tests.so: CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestBubbleSorter.cpp.o
-libuntitled5_Unit_Tests.so: CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestInsertionSorter.cpp.o
-libuntitled5_Unit_Tests.so: CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestMergeSorter.cpp.o
-libuntitled5_Unit_Tests.so: CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestPiramidSorter.cpp.o
-libuntitled5_Unit_Tests.so: CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestQuickSorter.cpp.o
-libuntitled5_Unit_Tests.so: CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTestShellSorter.cpp.o
-libuntitled5_Unit_Tests.so: CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests.cpp.o
+libuntitled5_Unit_Tests.so: CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests2.cpp.o
 libuntitled5_Unit_Tests.so: CMakeFiles/untitled5_Unit_Tests.dir/build.make
 libuntitled5_Unit_Tests.so: CMakeFiles/untitled5_Unit_Tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library libuntitled5_Unit_Tests.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libuntitled5_Unit_Tests.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled5_Unit_Tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

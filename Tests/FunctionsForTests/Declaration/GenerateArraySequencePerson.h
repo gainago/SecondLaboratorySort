@@ -8,5 +8,6 @@
 
 Sequence<Person*>* GenerateArraySequencePerson(int const count, DynamicArray<MyString>* Names, DynamicArray<MyString>* Surnames);
 
+void DeleteGenerateArraySequencePerson(Sequence<Person*>* seq);
 
 #endif //GENERATE_ARRAY_SEQUENCE_PERSON
