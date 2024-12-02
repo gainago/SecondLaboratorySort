@@ -58,7 +58,7 @@ double LoadTestFromFilePerson(MyString fileName, Sequence<Person*> *seqBased, So
         }
 
         auto start = std::chrono::high_resolution_clock::now();
-        sorter->Sort(seqToSort);
+        sorter->Sort(*seqToSort);
         auto end = std::chrono::high_resolution_clock::now();
 
         const std::chrono::duration<double> diff = end - start;

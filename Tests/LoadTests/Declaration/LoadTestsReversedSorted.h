@@ -1,0 +1,6 @@
+#ifndef LOAD_TESTS_REVERSED_SORTED_H
+#define LOAD_TESTS_REVERSED_SORTED_H
+
+void LoadTestsReversedSorted();
+
+#endif //LOAD_TESTS_REVERSED_SORTED_H

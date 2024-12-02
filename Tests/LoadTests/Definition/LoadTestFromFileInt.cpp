@@ -53,7 +53,7 @@ double LoadTestFromFileInt(MyString fileName, Sequence<int> *seqBased, Sorter<in
         }
 
         auto start = std::chrono::high_resolution_clock::now();
-        sorter->Sort(seqToSort);
+        sorter->Sort(*seqToSort);
         auto end = std::chrono::high_resolution_clock::now();
         assert(CheckCorrectlySorted(seqToSort, cmpInt));
         const std::chrono::duration<double> diff = end - start;

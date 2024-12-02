@@ -118,10 +118,38 @@ CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definiti
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.cpp.s"
 	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.cpp -o CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.cpp.s
 
+CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp.o: CMakeFiles/untitled5_Function_For_Tests_lib.dir/flags.make
+CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp
+CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp.o: CMakeFiles/untitled5_Function_For_Tests_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp.o -MF CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp.o.d -o CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp
+
+CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp.i"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp > CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp.i
+
+CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp.s"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp -o CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp.s
+
+CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp.o: CMakeFiles/untitled5_Function_For_Tests_lib.dir/flags.make
+CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp
+CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp.o: CMakeFiles/untitled5_Function_For_Tests_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp.o -MF CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp.o.d -o CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp
+
+CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp.i"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp > CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp.i
+
+CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp.s"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp -o CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp.s
+
 CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.o: CMakeFiles/untitled5_Function_For_Tests_lib.dir/flags.make
 CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp
 CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.o: CMakeFiles/untitled5_Function_For_Tests_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.o"
 	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.o -MF CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.o.d -o CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp
 
 CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.i: cmake_force
@@ -135,7 +163,7 @@ CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definiti
 CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp.o: CMakeFiles/untitled5_Function_For_Tests_lib.dir/flags.make
 CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp
 CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp.o: CMakeFiles/untitled5_Function_For_Tests_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp.o"
 	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp.o -MF CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp.o.d -o CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp
 
 CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp.i: cmake_force
@@ -149,7 +177,7 @@ CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definiti
 CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp.o: CMakeFiles/untitled5_Function_For_Tests_lib.dir/flags.make
 CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp
 CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp.o: CMakeFiles/untitled5_Function_For_Tests_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp.o"
 	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp.o -MF CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp.o.d -o CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp
 
 CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp.i: cmake_force
@@ -163,7 +191,7 @@ CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definiti
 CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WriteIntToFile.cpp.o: CMakeFiles/untitled5_Function_For_Tests_lib.dir/flags.make
 CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WriteIntToFile.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/WriteIntToFile.cpp
 CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WriteIntToFile.cpp.o: CMakeFiles/untitled5_Function_For_Tests_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WriteIntToFile.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WriteIntToFile.cpp.o"
 	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WriteIntToFile.cpp.o -MF CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WriteIntToFile.cpp.o.d -o CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WriteIntToFile.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/WriteIntToFile.cpp
 
 CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WriteIntToFile.cpp.i: cmake_force
@@ -177,7 +205,7 @@ CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definiti
 CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.o: CMakeFiles/untitled5_Function_For_Tests_lib.dir/flags.make
 CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/WritePersonToFile.cpp
 CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.o: CMakeFiles/untitled5_Function_For_Tests_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.o"
 	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.o -MF CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.o.d -o CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/WritePersonToFile.cpp
 
 CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.i: cmake_force
@@ -193,6 +221,8 @@ untitled5_Function_For_Tests_lib_OBJECTS = \
 "CMakeFiles/untitled5_Function_For_Tests_lib.dir/untitled5_Function_For_Tests_lib_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.cpp.o" \
 "CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.cpp.o" \
+"CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp.o" \
+"CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp.o" \
 "CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.o" \
 "CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp.o" \
 "CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp.o" \
@@ -205,6 +235,8 @@ untitled5_Function_For_Tests_lib_EXTERNAL_OBJECTS =
 libuntitled5_Function_For_Tests_lib.so: CMakeFiles/untitled5_Function_For_Tests_lib.dir/untitled5_Function_For_Tests_lib_autogen/mocs_compilation.cpp.o
 libuntitled5_Function_For_Tests_lib.so: CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.cpp.o
 libuntitled5_Function_For_Tests_lib.so: CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.cpp.o
+libuntitled5_Function_For_Tests_lib.so: CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp.o
+libuntitled5_Function_For_Tests_lib.so: CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp.o
 libuntitled5_Function_For_Tests_lib.so: CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.o
 libuntitled5_Function_For_Tests_lib.so: CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp.o
 libuntitled5_Function_For_Tests_lib.so: CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp.o
@@ -212,7 +244,7 @@ libuntitled5_Function_For_Tests_lib.so: CMakeFiles/untitled5_Function_For_Tests_
 libuntitled5_Function_For_Tests_lib.so: CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/WritePersonToFile.cpp.o
 libuntitled5_Function_For_Tests_lib.so: CMakeFiles/untitled5_Function_For_Tests_lib.dir/build.make
 libuntitled5_Function_For_Tests_lib.so: CMakeFiles/untitled5_Function_For_Tests_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library libuntitled5_Function_For_Tests_lib.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared library libuntitled5_Function_For_Tests_lib.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled5_Function_For_Tests_lib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

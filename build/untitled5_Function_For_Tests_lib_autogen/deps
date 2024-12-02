@@ -2,6 +2,8 @@ untitled5_Function_For_Tests_lib_autogen/timestamp: \
 	/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/CMakeLists.txt \
 	/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.cpp \
 	/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.cpp \
+	/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp \
+	/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp \
 	/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp \
 	/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp \
 	/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp \

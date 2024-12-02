@@ -74,11 +74,19 @@
 	"CMAKE_SOURCE_DIR" : "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort",
 	"DEP_FILE" : "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/untitled5_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "untitled5_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Ploat/Declaration/realtimeplot.h",
+			"MU",
+			"MWJY53M2DU/moc_realtimeplot.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/untitled5_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/untitled5_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [],
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -92,11 +100,18 @@
 		"/home/goshagaina/Qwt/qwt-6.3.0/src",
 		"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration",
 		"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition",
+		"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Ploat/Declaration",
+		"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Declaration",
 		"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sorter",
 		"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence",
 		"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/TypesOfData",
 		"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Declaration",
 		"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/UnitTests/Declaration",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
 		"/usr/include/c++/13",
 		"/usr/include/x86_64-linux-gnu/c++/13",
 		"/usr/include/c++/13/backward",
@@ -132,6 +147,26 @@
 	[
 		[
 			"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Definition/LoadTestInt.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Definition/LoadTestsReversedSorted.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Definition/LoadTestsSorted.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp",
 			"MU",
 			null
 		]

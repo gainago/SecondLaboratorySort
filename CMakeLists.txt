@@ -21,8 +21,8 @@ include_directories(
 "/home/goshagaina/Qwt/qwt-6.3.0/src"
 "${PROJECT_SOURCE_DIR}/Declaration"
 "${PROJECT_SOURCE_DIR}/Definition"
-#"${PROJECT_SOURCE_DIR}/Tests/LoadTests/Ploat/Declaration"
-#"${PROJECT_SOURCE_DIR}/Tests/LoadTests/Declaration"
+"${PROJECT_SOURCE_DIR}/Tests/LoadTests/Ploat/Declaration"
+"${PROJECT_SOURCE_DIR}/Tests/LoadTests/Declaration"
 "${PROJECT_SOURCE_DIR}/Declaration/Sorter" 
 "${PROJECT_SOURCE_DIR}/Declaration/Sequence"
 #"${PROJECT_SOURCE_DIR}/Tests/FunctionsForTests/Declaration"
@@ -67,12 +67,15 @@ include_directories(
 
 add_executable(untitled5
 Definition/main.cpp
-#${PROJECT_SOURCE_DIR}/Tests/LoadTests/Ploat/Declaration/realtimeplot.h ${PROJECT_SOURCE_DIR}/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp
+${PROJECT_SOURCE_DIR}/Tests/LoadTests/Ploat/Declaration/realtimeplot.h ${PROJECT_SOURCE_DIR}/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp
 #${PROJECT_SOURCE_DIR}/Tests/LoadTests/Definition/StartLoadTests.cpp
 #${PROJECT_SOURCE_DIR}/Definition/TypesOfData/MyString.cpp
 #${PROJECT_SOURCE_DIR}/Definition/TypesOfData/Comporators.cpp
 #${PROJECT_SOURCE_DIR}/Definition/TypesOfData/Person.cpp
 #${PROJECT_SOURCE_DIR}/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp
+${PROJECT_SOURCE_DIR}/Tests/LoadTests/Definition/LoadTestsSorted.cpp
+${PROJECT_SOURCE_DIR}/Tests/LoadTests/Definition/LoadTestsReversedSorted.cpp
+${PROJECT_SOURCE_DIR}/Tests/LoadTests/Definition/LoadTestInt.cpp
 )
 
 target_link_libraries(${PROJECT_NAME}
@@ -94,7 +97,7 @@ target_link_libraries(${PROJECT_NAME}
 # For more information, see https://doc.qt.io/qt-6/qt-add-executable.html#target-creation
 
 
-#target_link_libraries(untitled5 Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(untitled5 Qt${QT_VERSION_MAJOR}::Widgets)
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
@@ -111,8 +114,8 @@ target_link_libraries(${PROJECT_NAME}
 #    qt_finalize_executable(untitled5)
 #endif()
 
-#arget_link_libraries(${PROJECT_NAME}
-#                                         "/home/goshagaina/Qwt/qwt-6.3.0/lib/libqwt.so.6.3.0")
+target_link_libraries(${PROJECT_NAME}
+                                         "/home/goshagaina/Qwt/qwt-6.3.0/lib/libqwt.so.6.3.0")
                                          
 #target_link_libraries(${PROJECT_NAME}
 #${PROJECT_NAME}_Unit_Tests )

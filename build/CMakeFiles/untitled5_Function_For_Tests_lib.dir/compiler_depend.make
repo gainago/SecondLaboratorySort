@@ -4,6 +4,8 @@
 untitled5_Function_For_Tests_lib_autogen/timestamp: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/CMakeLists.txt \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.cpp \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp \
@@ -72,6 +74,148 @@ untitled5_Function_For_Tests_lib_autogen/timestamp: /home/goshagaina/MEPHILabsMy
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/CMakeLists.txt \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.cpp \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/WriteIntToFile.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/WritePersonToFile.cpp \
+  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeSystem.cmake \
+  /usr/bin/cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeParseArguments.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/Clang-CXX.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/Clang.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake \
+  /usr/share/cmake-3.28/Modules/Platform/Linux-Clang-CXX.cmake \
+  /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
+  /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
+  /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
+  /usr/share/cmake-3.28/Modules/Platform/Linux.cmake \
+  /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/CMakeLists.txt \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/WriteIntToFile.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/WritePersonToFile.cpp \
+  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeSystem.cmake \
+  /usr/bin/cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeParseArguments.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/Clang-CXX.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/Clang.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake \
+  /usr/share/cmake-3.28/Modules/Platform/Linux-Clang-CXX.cmake \
+  /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
+  /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
+  /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
+  /usr/share/cmake-3.28/Modules/Platform/Linux.cmake \
+  /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/CMakeLists.txt \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateListSequencePerson.cpp \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GetNamesAndSournamesToMyString.cpp \
@@ -422,6 +566,16 @@ CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definiti
   /usr/lib/llvm-14/lib/clang/14.0.6/include/__stddef_max_align_t.h \
   /usr/lib/llvm-14/lib/clang/14.0.6/include/stdarg.h \
   /usr/lib/llvm-14/lib/clang/14.0.6/include/stddef.h
+
+CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence/ArraySequence.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence/DynamicArray.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence/Sequence.h
+
+CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence/ArraySequence.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence/DynamicArray.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence/Sequence.h
 
 CMakeFiles/untitled5_Function_For_Tests_lib.dir/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence/LinkedList.h \
@@ -1348,7 +1502,7 @@ untitled5_Function_For_Tests_lib_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
-/usr/include/x86_64-linux-gnu/sys/types.h:
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
@@ -1462,6 +1616,8 @@ untitled5_Function_For_Tests_lib_autogen/mocs_compilation.cpp:
 
 /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake:
 
+/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceReversedSorted.cpp:
+
 /usr/share/cmake-3.28/Modules/Platform/Linux-Clang-CXX.cmake:
 
 /usr/include/c++/13/bits/fstream.tcc:
@@ -1480,21 +1636,13 @@ untitled5_Function_For_Tests_lib_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/bits/move.h:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake:
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
+/usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake:
 
-/usr/include/c++/13/bits/new_allocator.h:
+/usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
 
-/usr/include/c++/13/bits/uses_allocator_args.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake:
-
-/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp:
-
-CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake:
 
 /usr/include/c++/13/bits/functional_hash.h:
 
@@ -1520,10 +1668,6 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake:
-
-/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.cpp:
-
 /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake:
@@ -1538,13 +1682,7 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/CMakeLists.txt:
 
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
+CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequencePerson.cpp:
 
@@ -1558,6 +1696,24 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake:
 
+/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceInt.cpp:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/c++/13/bits/new_allocator.h:
+
+/usr/include/c++/13/bits/uses_allocator_args.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake:
+
+/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateListSequenceInt.cpp:
+
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/WritePersonToFile.cpp:
@@ -1570,16 +1726,6 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake:
 
-/usr/include/c++/13/backward/binders.h:
-
-/usr/bin/cmake:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake:
-
-/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/WriteIntToFile.cpp:
-
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
@@ -1588,7 +1734,11 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence/ArraySequence.h:
 
-CMakeFiles/3.28.3/CMakeSystem.cmake:
+/usr/include/c++/13/backward/binders.h:
+
+/usr/bin/cmake:
+
+CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake:
 
@@ -1599,6 +1749,12 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 /usr/include/c++/13/bits/exception_ptr.h:
 
 /usr/include/c++/13/bits/istream.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake:
+
+/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/WriteIntToFile.cpp:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
@@ -1619,10 +1775,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake:
-
-/usr/share/cmake-3.28/Modules/CMakeParseArguments.cmake:
-
-/usr/include/c++/13/bits/ostream_insert.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake:
 
@@ -1647,6 +1799,12 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake:
+
+/usr/include/c++/13/bits/ostream_insert.h:
+
+/usr/share/cmake-3.28/Modules/CMakeParseArguments.cmake:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
@@ -1834,6 +1992,8 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
+/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/FunctionsForTests/Definition/GenerateArraySequenceSortedInt.cpp:
+
 /usr/include/c++/13/limits:
 
 /usr/include/c++/13/stdexcept:
@@ -1887,5 +2047,3 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 /usr/include/c++/13/bits/stl_iterator_base_types.h:
 
 /usr/include/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:

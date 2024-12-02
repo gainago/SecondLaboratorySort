@@ -35,9 +35,9 @@ void StartLoadTests()
     rTimePlot->setPalette(p);
     rTimePlot->show();
 
-    for(int i = 1000; i <= 500000; i+=1000) //слишком часто замеряю
+    for(int i = 1000; i <= 1000000; i+=50000) //слишком часто замеряю
                                             //не анализирует поведение случайной и отсортированной и обратно отсортированной
-                                            //последовательностях так же интересно почти отсортированные
+                                            
     {
         std::cout << i << std::endl;
         MyString fileName("GeneratedInt");
@@ -91,7 +91,7 @@ void StartLoadTests()
 
     }
 
-    for(int i = 32; i <= 1000000; i*=2)
+    for(int i = 32; i <= 2000000; i*=2)
     {
         std::cout << i << std::endl;
         MyString fileName("GeneratedInt");
