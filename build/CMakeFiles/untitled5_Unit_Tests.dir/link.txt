@@ -1,0 +1,1 @@
+/usr/bin/clang++-14 -fPIC  -O0 -g -shared -Wl,-soname,libuntitled5_Unit_Tests.so -o libuntitled5_Unit_Tests.so CMakeFiles/untitled5_Unit_Tests.dir/untitled5_Unit_Tests_autogen/mocs_compilation.cpp.o CMakeFiles/untitled5_Unit_Tests.dir/Tests/UnitTests/Definition/UnitTests2.cpp.o 
