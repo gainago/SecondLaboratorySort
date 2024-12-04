@@ -4,6 +4,8 @@
 #include <QString>
 #include <QApplication>
 #include <QScreen>
+#include <QLabel>
+#include <QVBoxLayout>
 
 #include "ScrollZoomer.h"
 #include "uiclassprintgraphics.h"
@@ -275,6 +277,13 @@ void UIClassPrintGraphics::PrintGraphics(SorterTableModel const * model)
 
     QWidget* wgGraphics = new QWidget;
     QwtPlot *plot = new QwtPlot(wgGraphics);
+    QLabel* labelTextTitle = new QLabel("Bubble Sort: blue\t Insertion Sort: cyan(light blue)\t Shell Sort: green\t Merge Sort: magenta\t Piramid Sort: black\t Quick Sort: red\n");
+    //plot->setBackgroundRole(QPalette::Background);
+    QVBoxLayout* vLayout = new QVBoxLayout;
+
+    vLayout->addWidget(labelTextTitle);
+    vLayout->addWidget(plot);
+    wgGraphics->setLayout(vLayout);
     //plot->setBackgroundRole(QPalette::Background);
     plot->setAutoFillBackground(true);
 

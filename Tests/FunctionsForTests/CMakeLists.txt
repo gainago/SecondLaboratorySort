@@ -14,7 +14,7 @@ include_directories(
 			)
 
 
-																						 #libSharedLibrary_TypesOfData.so
+																						 
 add_library(${PROJECT_NAME} SHARED
 		${CPP_SOURCES}		)
 

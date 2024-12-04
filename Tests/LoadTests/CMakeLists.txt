@@ -17,8 +17,10 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 file(GLOB	
 		CPP_SOURCES	"${PROJECT_SOURCE_DIR}/Definition/*cpp")
 include_directories(
-			"/home/goshagaina/Qwt/qwt-6.3.0/classincludes"
+
+			"/home/goshagaina/Qwt/qwt-6.3.0/classincludes"	#Замените на свой путь!
 			"/home/goshagaina/Qwt/qwt-6.3.0/src"
+
 			"${PROJECT_SOURCE_DIR}/Declaration"
 			"${PROJECT_SOURCE_DIR}/../../Declaration/Sequence"
 			"${PROJECT_SOURCE_DIR}/../../Declaration/TypesOfData"
@@ -28,15 +30,9 @@ include_directories(
 			)
 
 
-																						 #libSharedLibrary_TypesOfData.so
-#add_library(${PROJECT_NAME} SHARED  this will be shared library later
-#		${CPP_SOURCES}		)
 
 
 add_library(${PROJECT_NAME}
 								${CPP_SOURCES})          
 
-#target_link_libraries(${PROJECT_NAME}
-#								"${PROJECT_SOURCE_DIR}/../../Definition/TypesOfData/build/libSharedLibrary_TypesOfData.so"
-#)
 target_link_libraries(${PROJECT_NAME} Qt${QT_VERSION_MAJOR}::Widgets)

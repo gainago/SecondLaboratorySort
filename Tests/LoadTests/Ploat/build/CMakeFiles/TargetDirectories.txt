@@ -1,5 +1,0 @@
-/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Ploat/build/CMakeFiles/untitled5.dir
-/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Ploat/build/CMakeFiles/edit_cache.dir
-/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Ploat/build/CMakeFiles/rebuild_cache.dir
-/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Ploat/build/CMakeFiles/untitled5_autogen_timestamp_deps.dir
-/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Tests/LoadTests/Ploat/build/CMakeFiles/untitled5_autogen.dir
