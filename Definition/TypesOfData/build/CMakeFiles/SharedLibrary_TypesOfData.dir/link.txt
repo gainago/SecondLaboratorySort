@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC  -std=c++11 -Wall -O0 -shared -Wl,-soname,libSharedLibrary_TypesOfData.so -o libSharedLibrary_TypesOfData.so CMakeFiles/SharedLibrary_TypesOfData.dir/Comporators.cpp.o CMakeFiles/SharedLibrary_TypesOfData.dir/MyString.cpp.o CMakeFiles/SharedLibrary_TypesOfData.dir/Person.cpp.o 

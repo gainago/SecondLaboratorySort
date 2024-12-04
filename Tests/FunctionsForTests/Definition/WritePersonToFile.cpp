@@ -21,11 +21,11 @@ void WritePersonToFile(int const count, DynamicArray<MyString> *Names, DynamicAr
     if(!ofs.is_open()){
         throw "can not open file";
     }
-    //std::cout << "AAAAAAAAAa" << std::endl;
+    
     for(int i = 0; i < count; i++)
     {
         ofs << *(seq->Get(i));
-        //std::cout << "size of Person is: " << sizeof(*(seq->Get(i))) <<std::endl;
+        
     }
 
     for(int i = 0; i < seq->GetLength(); i++)

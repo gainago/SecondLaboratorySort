@@ -34,14 +34,13 @@ private:
         if (seq->GetLength() <= 1) {
             return seq;
         }
-        //int[] left = Arrays.copyOfRange(src, 0, src.length / 2);
-        Sequence<Type>* seqLeft = seq->GetSubSequence(0, seq->GetLength() / 2);
-       //PrintSeq(seqLeft);
-        //int[] right = Arrays.copyOfRange(src, left.length, src.length);
+        
+        Sequence<Type>* seqLeft = seq->GetSubSequence(0, seq->GetLength() / 2); 
+       
         Sequence<Type>* seqRight = seq->GetSubSequence(seqLeft->GetLength(), seq->GetLength());
-        //PrintSeq(seqRight);
+        
         Sequence<Type>* seqMerged = merge(mergeSort(seqLeft), mergeSort(seqRight));
-        //PrintSeq(seqMerged);
+        
 
         
 
@@ -52,14 +51,13 @@ private:
         if (seq->GetLength() <= 1) {
             return seq;
         }
-        //int[] left = Arrays.copyOfRange(src, 0, src.length / 2);
+        
         Sequence<Type>* seqLeft = seq->GetSubSequence(0, seq->GetLength() / 2);
-       //PrintSeq(seqLeft);
-        //int[] right = Arrays.copyOfRange(src, left.length, src.length);
+       
         Sequence<Type>* seqRight = seq->GetSubSequence(seqLeft->GetLength(), seq->GetLength());
-        //PrintSeq(seqRight);
+        
         Sequence<Type>* seqMerged = merge(mergeSort(seqLeft), mergeSort(seqRight));
-        //PrintSeq(seqMerged);
+        
 
         delete seq;
 
@@ -70,7 +68,7 @@ private:
         int index = 0, indexL = 0, indexR = 0;
         Sequence<Type>* seqResult = seqLeft->GetNewSequence(seqLeft->GetLength() + seqRight->GetLength());                 //new int[left.length + right.length];
         while (indexL < seqLeft->GetLength() && indexR < seqRight->GetLength()) {
-            //result[index++] = left[indexL] < right[indexR] ? left[indexL++] : right[indexR++];
+            //result[index++] = left[indexL] < right[indexR] ? left[indexL++] : right[indexR++]; //краткий смысл цикла
             if(this->cmp_(seqLeft->Get(indexL), seqRight->Get(indexR))){
                 seqResult->Set(index++, seqLeft->Get(indexL++));
             }
@@ -89,8 +87,7 @@ private:
         }
 
         delete seqLeft;
-        delete seqRight;
-        //PrintSeq(seqResult);
+        delete seqRight;                                            //память нигде не уекает все проверил через valgrind
         return seqResult;
     }
     

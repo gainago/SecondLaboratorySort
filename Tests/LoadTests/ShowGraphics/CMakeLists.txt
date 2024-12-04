@@ -24,22 +24,25 @@ file(GLOB           SOURCES "${PROJECT_SOURCE_DIR}/*.h"
 
 #-------------------------------- create library Types Of Data 
 
-file(GLOB           SOURCES_Types_Of_Data 
-                            "${PROJECT_SOURCE_DIR}/../../../Definition/TypesOfData/*.cpp"
+#file(GLOB           SOURCES_Types_Of_Data 
+#                            "${PROJECT_SOURCE_DIR}/../../../Definition/TypesOfData/*.cpp"
+#
+#)
 
-)
-
-add_library(${PROJECT_NAME}_Types_Of_Data_lib
-                                                ${SOURCES_Types_Of_Data})
+#add_library(${PROJECT_NAME}_Types_Of_Data_lib
+#                                                ${SOURCES_Types_Of_Data})
 #------------------------------------------------
-add_executable(${PROJECT_NAME}
-
-                                    ${SOURCES})
-
+#add_executable(${PROJECT_NAME}
+#
+#                                   ${SOURCES})
+#
+add_library( ${PROJECT_NAME} SHARED
+                                        ${SOURCES})
+                                        
 target_link_libraries(${PROJECT_NAME} Qt${QT_VERSION_MAJOR}::Widgets)
 
 target_link_libraries(${PROJECT_NAME}
                                          "/home/goshagaina/Qwt/qwt-6.3.0/lib/libqwt.so.6.3.0")
 
-target_link_libraries(${PROJECT_NAME}
-${PROJECT_NAME}_Types_Of_Data_lib)
+#target_link_libraries(${PROJECT_NAME}
+#${PROJECT_NAME}_Types_Of_Data_lib)

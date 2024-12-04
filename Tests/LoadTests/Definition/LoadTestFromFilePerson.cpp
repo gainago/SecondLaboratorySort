@@ -45,13 +45,13 @@ double LoadTestFromFilePerson(MyString fileName, Sequence<Person*> *seqBased, So
 
         for(int i = 0; i < seqToSort->GetLength(); i++)
         {
-            char strId[41];
-            char strFirstName[41];
-            char strMiddleName[41];
-            char strLastName[41];
+            char strId[Person::GetMaxLength()];
+            char strFirstName[Person::GetMaxLength()];
+            char strMiddleName[Person::GetMaxLength()];
+            char strLastName[Person::GetMaxLength()];
             int bornAge;
             ifs >> strId >> strFirstName >> strMiddleName >> strLastName >> bornAge;
-            std::cout << strId << "\t" << strFirstName << "\t" << strMiddleName << "\t" << strLastName << "\t" << bornAge << std::endl;
+            //std::cout << strId << "\t" << strFirstName << "\t" << strMiddleName << "\t" << strLastName << "\t" << bornAge << std::endl;
             Person* tmpPerson = new Person(strId, strFirstName, strMiddleName, strLastName, bornAge);
             seqToSort->Set(i, tmpPerson);
 

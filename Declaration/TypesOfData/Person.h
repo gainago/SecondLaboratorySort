@@ -6,7 +6,7 @@
 
 
 
-typedef MyString PersonID; // 1 Person ~ 215 байт
+typedef MyString PersonID; 
 
 
 class Person
@@ -28,7 +28,7 @@ public:
 
     MyString GetId() const;
 
-    //void SetId();
+    //void SetId();                 // Сеттеры не используются
 
     MyString GetFirstName() const; 
 

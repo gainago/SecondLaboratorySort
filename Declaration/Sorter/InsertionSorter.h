@@ -22,7 +22,7 @@ private:
         {     
 	        for(int j = i; j > 0 && this->cmp_(seq.Get(j), seq.Get(j - 1));j--)
             {                            // пока j>0 и элемент j-1 > j, x-массив int
-			    //swap(x[j-1],x[j]);        // меняем местами элементы j и j-1
+			                               // меняем местами элементы j и j-1
                 Type tmp = seq.Get(j);
                 seq.Set(j, seq.Get(j - 1));
                 seq.Set(j - 1, tmp);

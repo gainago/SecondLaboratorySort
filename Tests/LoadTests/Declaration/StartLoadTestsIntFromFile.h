@@ -1,0 +1,6 @@
+#ifndef START_LOAD_TESTS_FROM_FILE_INT_H
+#define START_LOAD_TESTS_FROM_FILE_INT_H
+
+void StartLoadTestsIntFromFile();
+
+#endif //START_LOAD_TESTS_FROM_FILE_INT_H

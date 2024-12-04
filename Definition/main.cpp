@@ -1,52 +1,66 @@
-// #include "QuickSorter.h"
-// #include "BubbleSorter.h"
-// #include "PiramidSorter.h"
-// #include "MergeSorter.h"
-// #include "InsertionSorter.h"
-// #include "ShellSorter.h"
-// #include "BitonicSorter.h"
-// #include "ListSequence.h"
+// #include "ListSequence.h" //uncomment to generate data
 // #include "ArraySequence.h"
 // #include "DynamicArray.h"
-// #include "Person.h"
- //#include "GetNamesAndSournamesToMyString.h" 
- #include "MyString.h"
-// #include "WriteIntToFile.h"
- //#include "WritePersonToFile.h"
-//#include <iostream>
-// #include <fstream>
-//#include "UnitTests.h"
-//#include "Sequence.h"
-//#include "ArraySequence.h"
-//#include "WriteIntToFile.h"
+//#include "Person.h"
+//#include "MyString.h"
+#include "GetNamesAndSournamesToMyString.h" 
+#include "GenerateArraySequencePerson.h"
+#include "WriteIntToFile.h"
+#include "WritePersonToFile.h"
 #include "ArraySequence.h"
-//#include  "FileTest.h"
-//#include "Comporators.h"
-//#include "BubbleSorter.h"
-//#include "LoadTestDynamicArrayIntFile.h"
-//#include "LoadTestFromFilePerson.h"
-//#include "StartLoadTests.h"
-//#include "UnitTests.h"
+#include "StartLoadTestsPersonFromFile.h"
+#include "StartLoadTestsIntFromFile.h"
 #include <QApplication>
-#include <iostream>
-#include "BubbleSorter.h"
-#include "MergeSorter.h"
-#include "Comporators.h"
 #include "UnitTests2.h"
 #include "LoadTestsSorted.h"
 #include "LoadTestsReversedSorted.h"
+#include "ShowPlotLoadTestsAllSorters.h"
 
 
 
 
 int main(int argc, char** argv)
 {
-    QApplication app(argc, argv);
-    //LoadTestsSorted();
-    LoadTestsReversedSorted();
-    return app.exec();
+
+    UnitTestsInt2();  //Tests
+    UnitTestsPerson2();
+    /*DynamicArray<MyString>* names = GetNamesToMyString(); //Uncumment to create data 
+                                                                //Commment after that because it takes 2.3 GB memory
+    DynamicArray<MyString>* surnames = GetSurnamesToMyString();
+    for(int i = 0; i <= 1000000; i+=50000)
+    {
+        WritePersonToFile(i, names, surnames);
+    }
+
+    for(int i = 1; i <= 1000000; i*=2)
+    {
+        WritePersonToFile(i, names, surnames);
+    }
+
+    delete names;
+    delete surnames;
+    for(int i = 0; i <= 1000000; i+=50000)
+    {
+        WriteIntToFile(i);
+    }
+    for(int i = 1; i <= 1000000; i*=2)
+    {
+        WriteIntToFile(i);
+    }*/
+
+   
+
+     QApplication app(argc, argv);
+     //StartLoadTestsPersonFromFile();
+     //StartLoadTestsIntFromFile();
+
+     //ShowPlotLoadTestsAllSorters(); //All Sorters but not to BitonicSort see Bitonic Sort in StartLoadTestsIntFromFile
+     
+     //LoadTestsSorted();              //Thees two functions fot int
+     //LoadTestsReversedSorted();
+     
+     return app.exec();
     
     
-   //UnitTestsInt2();
-   //UnitTestsPerson2();
+   
 }

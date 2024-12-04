@@ -22,6 +22,7 @@ include_directories(
 "${PROJECT_SOURCE_DIR}/Declaration"
 "${PROJECT_SOURCE_DIR}/Definition"
 "${PROJECT_SOURCE_DIR}/Tests/LoadTests/Ploat/Declaration"
+"${PROJECT_SOURCE_DIR}/Tests/LoadTests/ShowGraphics"
 "${PROJECT_SOURCE_DIR}/Tests/LoadTests/Declaration"
 "${PROJECT_SOURCE_DIR}/Declaration/Sorter" 
 "${PROJECT_SOURCE_DIR}/Declaration/Sequence"
@@ -63,19 +64,39 @@ include_directories(
 )
 #---------------------
 
+#--------Library    LoadTests ---------- can not make this becaude Qt need set(CMAKE_AUTOMOC ON) 
+#                                        and i can not indicate this flag to library
+#file(GLOB
+#                CPP_LOAD_TESTS_SOURCES "${PROJECT_SOURCE_DIR}/Tests/LoadTests/Definition/*.cpp"
+#                ${PROJECT_SOURCE_DIR}/Tests/LoadTests/Ploat/Declaration/realtimeplot.h
+#                ${PROJECT_SOURCE_DIR}/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp
+#                )
+#
+#add_library(${PROJECT_NAME}_Load_Tests  SHARED
+#                                   ${CPP_LOAD_TESTS_SOURCES})
+include_directories(
+    "${PROJECT_SOURCE_DIR}/Tests/LoadTests/Declaration"
+)
+#---------------------
+
 
 
 add_executable(untitled5
 Definition/main.cpp
 ${PROJECT_SOURCE_DIR}/Tests/LoadTests/Ploat/Declaration/realtimeplot.h ${PROJECT_SOURCE_DIR}/Tests/LoadTests/Ploat/Definition/realtimeplot.cpp
+# файлы qt с используемой библиотекой необходимо подключать в add_executable
 #${PROJECT_SOURCE_DIR}/Tests/LoadTests/Definition/StartLoadTests.cpp
 #${PROJECT_SOURCE_DIR}/Definition/TypesOfData/MyString.cpp
 #${PROJECT_SOURCE_DIR}/Definition/TypesOfData/Comporators.cpp
 #${PROJECT_SOURCE_DIR}/Definition/TypesOfData/Person.cpp
 #${PROJECT_SOURCE_DIR}/Tests/LoadTests/Definition/LoadTestFromFileInt.cpp
+#${PROJECT_SOURCE_DIR}/Tests/LoadTests/Definition/LoadTestFromFilePerson.cpp
+${PROJECT_SOURCE_DIR}/Tests/LoadTests/Definition/StartLoadTestsPersonFromFile.cpp
+${PROJECT_SOURCE_DIR}/Tests/LoadTests/Definition/StartLoadTestsIntFromFile.cpp
 ${PROJECT_SOURCE_DIR}/Tests/LoadTests/Definition/LoadTestsSorted.cpp
 ${PROJECT_SOURCE_DIR}/Tests/LoadTests/Definition/LoadTestsReversedSorted.cpp
-${PROJECT_SOURCE_DIR}/Tests/LoadTests/Definition/LoadTestInt.cpp
+${PROJECT_SOURCE_DIR}/Tests/LoadTests/ShowGraphics
+#${PROJECT_SOURCE_DIR}/Tests/LoadTests/Definition/LoadTestInt.cpp
 )
 
 target_link_libraries(${PROJECT_NAME}
@@ -90,6 +111,12 @@ target_link_libraries(${PROJECT_NAME}
 
 target_link_libraries(${PROJECT_NAME}
                                         ${PROJECT_NAME}_Unit_Tests)
+
+target_link_libraries(${PROJECT_NAME}
+                                        "${PROJECT_SOURCE_DIR}/Tests/LoadTests/build/libLoadTestsLibrary.a")
+                                        
+target_link_libraries(${PROJECT_NAME}
+                                        "${PROJECT_SOURCE_DIR}/Tests/LoadTests/ShowGraphics/build/libShowGraphics.so")  
 
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET untitled5 APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

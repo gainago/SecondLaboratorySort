@@ -1,9 +1,9 @@
 #include "Comporators.h"
-#include "BubbleSorter.h"
+//#include "BubbleSorter.h"
 #include "QuickSorter.h"
 #include "PiramidSorter.h"
 #include "ShellSorter.h"
-#include "InsertionSorter.h"
+//#include "InsertionSorter.h"
 #include "MergeSorter.h"
 #include "MyString.h"
 #include "Sequence.h"
@@ -12,6 +12,8 @@
 #include "BitonicSorter.h"
 #include "LoadTestInt.h"
 #include "GenerateArraySequenceReversedSorted.h"
+#include <QLabel>
+#include <QVBoxLayout>
 
 
 void LoadTestsReversedSorted()
@@ -27,17 +29,30 @@ void LoadTestsReversedSorted()
 
     Sequence<int>* seq;
 
+    QWidget* wg = new QWidget;
+    QVBoxLayout* vLayout = new QVBoxLayout;
+    QLabel* labelTitle = new QLabel("ReversedSortedData. Merge Sort: blue\t Quick Sort:red\t Piramid Sort:black\t\
+    Shell Sort:cyan(light blue)\t Bitonic Sort:yellow");
+
+    vLayout->addWidget(labelTitle);
     RealTimePlot *rTimePlot = new RealTimePlot;
+    vLayout->addWidget(rTimePlot);
+    wg->setLayout(vLayout);
+    wg->show();
     QPalette p = rTimePlot->palette();
     p.setColor(QPalette::Window, Qt::darkGray);
+    /*QLabel* labelText = new QLabel("Merge Sort: blue\n\
+    Quick Sort:red\n\
+    Piramid Sort:black\n\
+    Shell Sort:cyan(light blue)\n\
+    Bitonic Sort:yellow");
+    labelText->show();*/
+
     rTimePlot->setPalette(p);
     rTimePlot->show();
 
-    for(int i = 1000; i <= 1000000; i+=50000) //слишком часто замеряю
-                                            //не анализирует поведение случайной и отсортированной и обратно отсортированной
-                                            
+    for(int i = 1000; i <= 1001000; i+=50000)                                      
     {
-        std::cout << i << std::endl;
         double timeBubble = 0;
         double timeQuick = 0;
         double timePiramid = 0;
@@ -45,11 +60,6 @@ void LoadTestsReversedSorted()
         double timeInsert = 0;
         double timeMerge = 0;
         double timeBitonic = 0;
-
-
-        
-        
-
             //timeInsert = LoadTestFromFileInt(fileName, seq, &iSorter);
             //timeBubble = LoadTestFromFileInt(fileName, seq, &bSorter); // запускаю только на быстрых
                                                                          // алгоритмах сортировки 
@@ -63,7 +73,8 @@ void LoadTestsReversedSorted()
             timeMerge = LoadTestInt(seq, &mSorter);
             delete seq;
 
-            seq = GenerateArraySequenceReversedSorted(i);   
+            seq = GenerateArraySequenceReversedSorted(i);  
+            //PrintSeq(seq); 
             timePiramid = LoadTestInt(seq, &pSorter);
             delete seq;
 
@@ -73,19 +84,12 @@ void LoadTestsReversedSorted()
             
             
             rTimePlot->setData( i,  timeMerge, timeQuick, timePiramid, timeShell, timeBitonic);
-        std::cout << "Count Of Elements:\n" << i << "\n" 
-        << "timeBubble:\n" << timeBubble << "\n"
-        << "timeInsert:\n" << timeInsert << "\n"
-        << "timeQuick:\n" << timeQuick << "\n"  
-        << "timeMerge:\n" << timeMerge << "\n" 
-        << "timePiramid:\n" << timePiramid << "\n" 
-        << "timeShell\n" << timeShell << "\n" << std::endl;
 
     }
 
     for(int i = 32; i <= 2000000; i*=2)
     {
-        std::cout << i << std::endl;
+        //std::cout << i << std::endl;
 
         double timeBubble = 0;
         double timeQuick = 0;

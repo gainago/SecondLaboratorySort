@@ -10,13 +10,14 @@ protected:
     
     bool (*cmp_)(Type const &, Type const &); // isLeftLessRight
 
-public:
+protected:
 
-    Sorter(bool (*cmp)(Type const &, Type const &)) : cmp_(cmp) {} // лучше вынести в protected
+    Sorter(bool (*cmp)(Type const &, Type const &)) : cmp_(cmp) {} // лучше  в protected
+public:
     Sorter(Sorter<Type>* other) : cmp_(other->cmp_) {} // Сортер абстрактный так что в этом конструкторе нет смысла
 
     virtual void Sort(Sequence<Type>& seq) = 0;         //only for Mutable Sequences 
-                                                        //заменить указатель на ссылку и избавимся от указателя являющегося nullptr
+                                                        
 
     virtual ~Sorter() {};
 

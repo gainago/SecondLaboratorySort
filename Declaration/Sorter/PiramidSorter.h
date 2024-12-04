@@ -12,9 +12,7 @@ public:
 
     void Sort(Sequence<Type>& seq) override
     {
-        //Sequence<Type>* seqToSort = seq->GetInstance();
         piramidSort(seq, seq.GetLength());
-
     }
     
 private:
@@ -29,11 +27,11 @@ private:
         for (int i = n-1; i >= 0; i--)
         {
                                         // Перемещаем текущий корень в конец
-            //PrintSeq(seq);                           //swap(arr[0], arr[i]);
+                                    //swap(arr[0], arr[i]);
             Type tmp = seq.Get(0);
             seq.Set(0, seq.Get(i));
             seq.Set(i, tmp);       
-            //PrintSeq(seq);  
+            
 
                                         // вызываем процедуру heapify на уменьшенной куче
             heapify(seq, i, 0);
@@ -60,13 +58,12 @@ private:
                                         // Если самый большой элемент не корень
         if (largest != i)
         {
-            //swap(arr[i], arr[largest]);
-            //PrintSeq(seq);  
+             
             Type tmp = seq.Get(i);
             seq.Set(i, seq.Get(largest));
             seq.Set(largest, tmp);
 
-            //PrintSeq(seq);                            // Рекурсивно преобразуем в двоичную кучу затронутое поддерево
+                                        // Рекурсивно преобразуем в двоичную кучу затронутое поддерево
             heapify(seq, n, largest);
         }
 }   

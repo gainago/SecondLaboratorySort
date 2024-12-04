@@ -26,6 +26,7 @@ private:
     QwtPlotCurve *curvePiramid;
     QwtPlotCurve *curveShell;
     QwtPlotDirectPainter *painter;
+    //QwtPlot* plot;
 
     void appendGraphPoint(QPointF newPointMerge, QPointF newPointQuick, QPointF newPointPiramid, QPointF newPointBitonic, QPointF newPointShell);
     int counter{0};
