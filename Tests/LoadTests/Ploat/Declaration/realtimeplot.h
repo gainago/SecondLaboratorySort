@@ -17,9 +17,11 @@ public:
 
 public slots:
     void timeHandle();
-    void setData(double testSize, double timeBubble, double timeQuick, double timePiramid, double timeShell, double timeBitonic);
+    void setData(double testSize, double timeBubble, double timeInsertion, double timeMerge, double timeQuick, double timePiramid, double timeShell, double timeBitonic);
 
 private:
+    QwtPlotCurve *curveBubble;
+    QwtPlotCurve *curveInsertion;
     QwtPlotCurve *curveMerge;
     QwtPlotCurve *curveBitonic;
     QwtPlotCurve *curveQuick;
@@ -28,12 +30,14 @@ private:
     QwtPlotDirectPainter *painter;
     //QwtPlot* plot;
 
-    void appendGraphPoint(QPointF newPointMerge, QPointF newPointQuick, QPointF newPointPiramid, QPointF newPointBitonic, QPointF newPointShell);
+    void appendGraphPoint(QPointF newPointBubble, QPointF newPointInsertion, QPointF newPointMerge, QPointF newPointQuick, QPointF newPointPiramid, QPointF newPointBitonic, QPointF newPointShell);
     int counter{0};
     int lastAppend{0};
     //ScrollZoomer *zoomer;
     QTimer *timer;
     double x[1000000];
+    double Bubble[1000000];
+    double Insertion[1000000];
     double Merge[1000000];
     double Quick[1000000];
     double Piramid[1000000];

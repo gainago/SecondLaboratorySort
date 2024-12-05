@@ -35,8 +35,8 @@ void StartLoadTestsPersonFromFile()
     //std::ofstream ofs("Time Functions2"); //unomment if you want to get data to file
     QWidget* wg = new QWidget;
     QVBoxLayout* vLayout = new QVBoxLayout;
-    QLabel* labelTitle = new QLabel("LoadTestsPerson. Merge Sort: blue\t Quick Sort:red\t Piramid Sort:black\t\
-    Shell Sort:cyan(light blue)\t Bitonic Sort:yellow");
+    QLabel* labelTitle = new QLabel("LoadTestsPerson. Bubble Sort: blue\t Merge Sort: magenta\t Quick Sort:red\t Piramid Sort:black\t\
+    Insertion Sort:cyan(light blue)\t Shell Sort: green");
 
     vLayout->addWidget(labelTitle);
     RealTimePlot *rTimePlot = new RealTimePlot;
@@ -57,7 +57,7 @@ void StartLoadTestsPersonFromFile()
         double timeQuick = 0;
         double timePiramid = 0;
         double timeShell = 0;
-        double timeInsert = 0;
+        double timeInsertion = 0;
         double timeMerge = 0;
         double timeBitonic = 0;
 
@@ -78,7 +78,7 @@ void StartLoadTestsPersonFromFile()
         << "timePiramid:\n" << timePiramid << "\n" 
         << "timeShell\n" << timeShell << "\n" << std::endl;  */
         //if(timeQuick > 1e-8 || timeBitonic > 1e-8 )
-            rTimePlot->setData( i,  timeMerge, timeQuick, timePiramid, timeShell, timeBitonic);
+            rTimePlot->setData( i, timeBubble, timeInsertion, timeMerge, timeQuick, timePiramid, timeShell, timeBitonic);
         // std::cout << "Count Of Elements:\n" << i << "\n" 
         // << "timeBubble:\n" << timeBubble << "\n"
         // << "timeInsert:\n" << timeInsert << "\n"
@@ -98,7 +98,7 @@ void StartLoadTestsPersonFromFile()
         double timeQuick = 0;
         double timePiramid = 0;
         double timeShell = 0;
-        double timeInsert = 0;
+        double timeInsertion = 0;
         double timeMerge = 0;
         double timeBitonic = 0;
             
@@ -115,7 +115,7 @@ void StartLoadTestsPersonFromFile()
         //std::cout << "Count Of Elements:\n" << i << "\n" 
         //<< "timeBitonic:\n" << timeBitonic << std::endl;
 
-            rTimePlot->setData( i,  timeMerge, timeQuick, timePiramid, timeShell, timeBitonic);
+            rTimePlot->setData( i, timeBubble, timeInsertion, timeMerge, timeQuick, timePiramid, timeShell, timeBitonic);
 
         //std::cout << "Count Of Elements:\n" << i << "\n" 
         //<< "timeBitonic:\n" << timeBitonic << std::endl;

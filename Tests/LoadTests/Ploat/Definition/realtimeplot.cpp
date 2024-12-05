@@ -47,20 +47,36 @@ RealTimePlot::RealTimePlot()
     QObject::connect(timer, SIGNAL(timeout()), this, SLOT(timeHandle()));
     timer->start(100);
     painter = new QwtPlotDirectPainter(this);
-    //this->setAxisScale(QwtPlot::xBottom, -1, 1000000);
-    //this->setAxisScale(QwtPlot::yLeft, 0, 1);
+    this->setAxisScale(QwtPlot::xBottom, -1, 1000000);
+    this->setAxisScale(QwtPlot::yLeft, 0, 1);
 
+    curveBubble = new QwtPlotCurve("y(x)");
+    curveInsertion = new QwtPlotCurve("y(x)");
     curveMerge = new QwtPlotCurve("y(x)");
     curveQuick = new QwtPlotCurve("y(x)");
     curvePiramid = new QwtPlotCurve("y(x)");
     curveBitonic = new QwtPlotCurve("y(x)");
     curveShell = new QwtPlotCurve("y(x)");
 
+    curveInsertion->setStyle(QwtPlotCurve::Lines);
+    curveInsertion->setPen(QPen(Qt::cyan));
+    curveInsertion->setCurveAttribute(QwtPlotCurve::Fitted);
+    curveInsertion->setData(new CurveData());
+    curveInsertion->setSymbol(new QwtSymbol(QwtSymbol::Ellipse, Qt::NoBrush, QPen(Qt::cyan), QSize(1, 1)));
+    curveInsertion->attach(this);
+
+    curveBubble->setStyle(QwtPlotCurve::Lines);
+    curveBubble->setPen(QPen(Qt::blue));
+    curveBubble->setCurveAttribute(QwtPlotCurve::Fitted);
+    curveBubble->setData(new CurveData());
+    curveBubble->setSymbol(new QwtSymbol(QwtSymbol::Ellipse, Qt::NoBrush, QPen(Qt::blue), QSize(1, 1)));
+    curveBubble->attach(this);
+
     curveMerge->setStyle(QwtPlotCurve::Lines);
-    curveMerge->setPen(QPen(Qt::blue));
+    curveMerge->setPen(QPen(Qt::magenta));
     curveMerge->setCurveAttribute(QwtPlotCurve::Fitted);
     curveMerge->setData(new CurveData());
-    curveMerge->setSymbol(new QwtSymbol(QwtSymbol::Ellipse, Qt::NoBrush, QPen(Qt::blue), QSize(1, 1)));
+    curveMerge->setSymbol(new QwtSymbol(QwtSymbol::Ellipse, Qt::NoBrush, QPen(Qt::magenta), QSize(1, 1)));
     curveMerge->attach(this);
 
     curveQuick->setStyle(QwtPlotCurve::Lines);
@@ -79,10 +95,10 @@ RealTimePlot::RealTimePlot()
     curvePiramid->attach(this);
 
     curveShell->setStyle(QwtPlotCurve::Lines);
-    curveShell->setPen(QPen(Qt::cyan));
+    curveShell->setPen(QPen(Qt::green));
     curveShell->setCurveAttribute(QwtPlotCurve::Fitted);
     curveShell->setData(new CurveData());
-    curveShell->setSymbol(new QwtSymbol(QwtSymbol::Ellipse, Qt::NoBrush, QPen(Qt::cyan), QSize(1, 1)));
+    curveShell->setSymbol(new QwtSymbol(QwtSymbol::Ellipse, Qt::NoBrush, QPen(Qt::green), QSize(1, 1)));
     curveShell->attach(this);
 
     curveBitonic->setStyle(QwtPlotCurve::Lines);
@@ -97,10 +113,12 @@ RealTimePlot::RealTimePlot()
 
 }
 
-void RealTimePlot::setData(double testSize, double timeMerge, double timeQuick, double timePiramid, double timeShell, double timeBitonic)
+void RealTimePlot::setData(double testSize, double timeBubble, double timeInsertion, double timeMerge, double timeQuick, double timePiramid, double timeShell, double timeBitonic)
 {
     
     x[counter] = testSize;
+    Bubble[counter] = timeBubble;
+    Insertion[counter] = timeInsertion;
     Merge[counter] = timeMerge;
     Quick[counter] = timeQuick;
     Piramid[counter] = timePiramid;
@@ -123,25 +141,29 @@ RealTimePlot::~RealTimePlot()
     delete curvePiramid;
     delete curveBitonic;
     delete curveShell;
+    delete curveBubble;
+    delete curveInsertion;
 }
 
 void RealTimePlot::timeHandle()
 {
     if(lastAppend < counter){
-    QPointF newPointMerge = QPointF(this->x[this->lastAppend], this->Merge[this->lastAppend]);
-    QPointF newPointQuick = QPointF(this->x[this->lastAppend], this->Quick[this->lastAppend]);
-    QPointF newPointPiramid = QPointF(this->x[this->lastAppend], this->Piramid[this->lastAppend]);
-    QPointF newPointShell = QPointF(this->x[this->lastAppend], this->Shell[this->lastAppend]);
-    QPointF newPointBitonic = QPointF(this->x[this->lastAppend], this->Bitonic[this->lastAppend]);
+        QPointF newPointBubble = QPointF(this->x[this->lastAppend], this->Bubble[this->lastAppend]);
+        QPointF newPointInsertion = QPointF(this->x[this->lastAppend], this->Insertion[this->lastAppend]);
+        QPointF newPointMerge = QPointF(this->x[this->lastAppend], this->Merge[this->lastAppend]);
+        QPointF newPointQuick = QPointF(this->x[this->lastAppend], this->Quick[this->lastAppend]);
+        QPointF newPointPiramid = QPointF(this->x[this->lastAppend], this->Piramid[this->lastAppend]);
+        QPointF newPointShell = QPointF(this->x[this->lastAppend], this->Shell[this->lastAppend]);
+        QPointF newPointBitonic = QPointF(this->x[this->lastAppend], this->Bitonic[this->lastAppend]);
     
 
-    RealTimePlot::appendGraphPoint(newPointMerge, newPointQuick, newPointPiramid, newPointShell, newPointBitonic);
+    RealTimePlot::appendGraphPoint(newPointBubble, newPointInsertion, newPointMerge, newPointQuick, newPointPiramid, newPointShell, newPointBitonic);
     ++lastAppend;
 
     }
 }
 
-void RealTimePlot::appendGraphPoint(QPointF newPointMerge, QPointF newPointQuick, QPointF newPointPiramid, QPointF newPointShell, QPointF newPointBitonic)
+void RealTimePlot::appendGraphPoint(QPointF newPointBubble, QPointF newPointInsertion, QPointF newPointMerge, QPointF newPointQuick, QPointF newPointPiramid, QPointF newPointShell, QPointF newPointBitonic)
 {
     if(newPointQuick.ry() > 1e-8){
     CurveData *dataMerge = static_cast<CurveData *>(curveMerge->data());
@@ -159,6 +181,18 @@ void RealTimePlot::appendGraphPoint(QPointF newPointMerge, QPointF newPointQuick
     CurveData *dataShell = static_cast<CurveData *>(curveShell->data());
     dataShell->append(newPointShell);
     painter->drawSeries(curveShell, 0, dataShell->size() - 1);
+    }
+
+    if(newPointBubble.ry() > 1e-8){
+        CurveData *dataBubble = static_cast<CurveData *>(curveBubble->data());
+        dataBubble->append(newPointBubble);
+        painter->drawSeries(curveBubble, 0, dataBubble->size() - 1);
+    }
+
+    if(newPointInsertion.ry() > 1e-8){
+        CurveData *dataInsertion = static_cast<CurveData *>(curveInsertion->data());
+        dataInsertion->append(newPointInsertion);
+        painter->drawSeries(curveInsertion, 0, dataInsertion->size() - 1);
     }
 
     //std::cout << "newPointBitonuc.ry() = " << newPointBitonic.ry() << std::endl;

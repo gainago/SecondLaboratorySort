@@ -31,8 +31,8 @@ void LoadTestsReversedSorted()
 
     QWidget* wg = new QWidget;
     QVBoxLayout* vLayout = new QVBoxLayout;
-    QLabel* labelTitle = new QLabel("ReversedSortedData. Merge Sort: blue\t Quick Sort:red\t Piramid Sort:black\t\
-    Shell Sort:cyan(light blue)\t Bitonic Sort:yellow");
+    QLabel* labelTitle = new QLabel("LoadTestsReversedSortedInt. Bubble Sort: blue\t Merge Sort: magenta\t Quick Sort:red\t Piramid Sort:black\t\
+    Insertion Sort:cyan(light blue)\t Shell Sort: green");
 
     vLayout->addWidget(labelTitle);
     RealTimePlot *rTimePlot = new RealTimePlot;
@@ -51,13 +51,13 @@ void LoadTestsReversedSorted()
     rTimePlot->setPalette(p);
     rTimePlot->show();
 
-    for(int i = 1000; i <= 1001000; i+=50000)                                      
+    for(int i = 0; i <= 1000000; i+=50000)                                      
     {
         double timeBubble = 0;
         double timeQuick = 0;
         double timePiramid = 0;
         double timeShell = 0;
-        double timeInsert = 0;
+        double timeInsertion = 0;
         double timeMerge = 0;
         double timeBitonic = 0;
             //timeInsert = LoadTestFromFileInt(fileName, seq, &iSorter);
@@ -83,19 +83,19 @@ void LoadTestsReversedSorted()
             delete seq;
             
             
-            rTimePlot->setData( i,  timeMerge, timeQuick, timePiramid, timeShell, timeBitonic);
+            rTimePlot->setData( i, timeBubble, timeInsertion, timeMerge, timeQuick, timePiramid, timeShell, timeBitonic);
 
     }
 
-    for(int i = 32; i <= 2000000; i*=2)
+    for(int i = 1; i <= 1000000; i*=2)
     {
-        //std::cout << i << std::endl;
+        
 
         double timeBubble = 0;
         double timeQuick = 0;
         double timePiramid = 0;
         double timeShell = 0;
-        double timeInsert = 0;
+        double timeInsertion = 0;
         double timeMerge = 0;
         double timeBitonic = 0;
 
@@ -103,6 +103,6 @@ void LoadTestsReversedSorted()
         timeBitonic = LoadTestInt(seq, &biSorter);
         delete seq;
 
-        rTimePlot->setData( i,  timeMerge, timeQuick, timePiramid, timeShell, timeBitonic);
+        rTimePlot->setData( i, timeBubble, timeInsertion, timeMerge, timeQuick, timePiramid, timeShell, timeBitonic);
     }
 }

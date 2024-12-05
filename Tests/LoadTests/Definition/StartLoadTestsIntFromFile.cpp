@@ -22,11 +22,11 @@
 void StartLoadTestsIntFromFile()
 {
 
-    //BubbleSorter<int> bSorter(cmpInt);
+    BubbleSorter<int> bSorter(cmpInt);
     QuickSorter<int> qSorter(cmpInt);
     PiramidSorter<int> pSorter(cmpInt);
     ShellSorter<int> sSorter(cmpInt);
-    //InsertionSorter<int> iSorter(cmpInt);
+    InsertionSorter<int> iSorter(cmpInt);
     MergeSorter<int> mSorter(cmpInt);
     BitonicSorter<int> biSorter(cmpInt);
 
@@ -34,8 +34,8 @@ void StartLoadTestsIntFromFile()
     //std::ofstream ofs("Time Functions2"); //uncomment if you want to get data to file
     QWidget* wg = new QWidget;
     QVBoxLayout* vLayout = new QVBoxLayout;
-    QLabel* labelTitle = new QLabel("LoadTestsInt. Merge Sort: blue\t Quick Sort:red\t Piramid Sort:black\t\
-    Shell Sort:cyan(light blue)\t Bitonic Sort:yellow");
+    QLabel* labelTitle = new QLabel("LoadTestsInt. Bubble Sort: blue\t Merge Sort: magenta\t Quick Sort:red\t Piramid Sort:black\t\
+    Insertion Sort:cyan(light blue)\t Shell Sort: green");
 
     vLayout->addWidget(labelTitle);
     RealTimePlot *rTimePlot = new RealTimePlot;
@@ -47,8 +47,8 @@ void StartLoadTestsIntFromFile()
     rTimePlot->setPalette(p);
     rTimePlot->show();
 
-    for(int i = 0; i <= 1000000; i+=50000) //слишком часто замеряю
-                                            //не анализирует поведение случайной и отсортированной и обратно отсортированной
+    for(int i = 0; i <= 1000000; i+=50000) 
+                                            
                                             
     {
         std::cout << i << std::endl;
@@ -58,11 +58,12 @@ void StartLoadTestsIntFromFile()
         double timeQuick = 0;
         double timePiramid = 0;
         double timeShell = 0;
-        double timeInsert = 0;
+        double timeInsertion = 0;
         double timeMerge = 0;
         double timeBitonic = 0;
 
-            //timeInsert = LoadTestFromFileInt(fileName, seq, &iSorter);
+            //timeInsertion = LoadTestFromFileInt(fileName, seq, &iSorter); //если раскомментируете то будет долго
+                                                                            // а на меньших объемах данных не видно зависимости
             //timeBubble = LoadTestFromFileInt(fileName, seq, &bSorter);
             
             timeQuick = LoadTestFromFileInt(fileName, seq, &qSorter);
@@ -71,7 +72,7 @@ void StartLoadTestsIntFromFile()
             timeShell = LoadTestFromFileInt(fileName, seq, &sSorter);
             
         
-        /*ofs << "Count Of Elements:\n" << i << "\n" 
+        /*ofs << "Count Of Elements:\n" << i << "\n"   //оставил на случай если вы захотите получить новые данные для всех функция в файл
         << "timeBubble:\n" << timeBubble << "\n"
         << "timeInsert:\n" << timeInsert << "\n"
         << "timeQuick:\n" << timeQuick << "\n"
@@ -79,7 +80,8 @@ void StartLoadTestsIntFromFile()
         << "timePiramid:\n" << timePiramid << "\n" 
         << "timeShell\n" << timeShell << "\n" << std::endl;  */
         //if(timeQuick > 1e-8 || timeBitonic > 1e-8 )
-            rTimePlot->setData( i,  timeMerge, timeQuick, timePiramid, timeShell, timeBitonic);
+                                    //нулевое время на график не добавится
+            rTimePlot->setData( i, timeBubble, timeInsertion, timeMerge, timeQuick, timePiramid, timeShell, timeBitonic); 
         // std::cout << "Count Of Elements:\n" << i << "\n" 
         // << "timeBubble:\n" << timeBubble << "\n"
         // << "timeInsert:\n" << timeInsert << "\n"
@@ -90,7 +92,7 @@ void StartLoadTestsIntFromFile()
 
     }
 
-    for(int i = 1; i <= 1000000; i*=2)
+    for(int i = 1; i <= 10000; i*=2)
     {
         std::cout << i << std::endl;
         MyString fileName("GeneratedInt");
@@ -99,7 +101,7 @@ void StartLoadTestsIntFromFile()
         double timeQuick = 0;
         double timePiramid = 0;
         double timeShell = 0;
-        double timeInsert = 0;
+        double timeInsertion = 0;
         double timeMerge = 0;
         double timeBitonic = 0;
 
@@ -116,7 +118,7 @@ void StartLoadTestsIntFromFile()
         //std::cout << "Count Of Elements:\n" << i << "\n" 
         //<< "timeBitonic:\n" << timeBitonic << std::endl;
 
-            rTimePlot->setData( i,  timeMerge, timeQuick, timePiramid, timeShell, timeBitonic);
+            rTimePlot->setData( i, timeBubble, timeInsertion, timeMerge, timeQuick, timePiramid, timeShell, timeBitonic);
 
         //std::cout << "Count Of Elements:\n" << i << "\n" 
         //<< "timeBitonic:\n" << timeBitonic << std::endl;

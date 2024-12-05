@@ -33,8 +33,8 @@ void LoadTestsSorted()
 
     QWidget* wg = new QWidget;
     QVBoxLayout* vLayout = new QVBoxLayout;
-    QLabel* labelTitle = new QLabel("SortedData. Merge Sort: blue\t Quick Sort:red\t Piramid Sort:black\t\
-    Shell Sort:cyan(light blue)\t Bitonic Sort:yellow");
+    QLabel* labelTitle = new QLabel("LoadTestsSortedInt. Bubble Sort: blue\t Merge Sort: magenta\t Quick Sort:red\t Piramid Sort:black\t\
+    Insertion Sort:cyan(light blue)\t Shell Sort: green");
 
     
 
@@ -50,16 +50,16 @@ void LoadTestsSorted()
     rTimePlotSorted->setPalette(p);
     rTimePlotSorted->show();
 
-    for(int i = 1000; i <= 1001000; i+=50000) //слишком часто замеряю
-                                            //не анализирует поведение случайной и отсортированной и обратно отсортированной
+    for(int i = 0; i <= 1000000; i+=50000) 
+                                            
                                             
     {
-        //std::cout << i << std::endl;
+        
         double timeBubble = 0;
         double timeQuick = 0;
         double timePiramid = 0;
         double timeShell = 0;
-        double timeInsert = 0;
+        double timeInsertion = 0;
         double timeMerge = 0;
         double timeBitonic = 0;
 
@@ -79,7 +79,7 @@ void LoadTestsSorted()
             timeShell = LoadTestInt(seq, &sSorter);
             delete seq;
 
-            rTimePlotSorted->setData( i,  timeMerge, timeQuick, timePiramid, timeShell, timeBitonic);
+            rTimePlotSorted->setData( i, timeBubble, timeInsertion, timeMerge, timeQuick, timePiramid, timeShell, timeBitonic);
         /*std::cout << "Count Of Elements:\n" << i << "\n" 
         << "timeBubble:\n" << timeBubble << "\n"
         << "timeInsert:\n" << timeInsert << "\n"
@@ -90,15 +90,14 @@ void LoadTestsSorted()
 
     }
 
-    for(int i = 32; i <= 2000000; i*=2)
+    for(int i = 1; i <= 1000000; i*=2)
     {
-        //std::cout << i << std::endl;
 
         double timeBubble = 0;
         double timeQuick = 0;
         double timePiramid = 0;
         double timeShell = 0;
-        double timeInsert = 0;
+        double timeInsertion = 0;
         double timeMerge = 0;
         double timeBitonic = 0;
 
@@ -106,7 +105,7 @@ void LoadTestsSorted()
         timeBitonic = LoadTestInt(seq, &biSorter);
         delete seq;
 
-        rTimePlotSorted->setData( i,  timeMerge, timeQuick, timePiramid, timeShell, timeBitonic);
+        rTimePlotSorted->setData( i, timeBubble, timeInsertion, timeMerge, timeQuick, timePiramid, timeShell, timeBitonic);
     }
     
     
