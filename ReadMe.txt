@@ -50,3 +50,5 @@ https://qtlinux.narod.ru/install_qwt.htm
 
 Неиспользуемые файлы LinkedList и ListSequence были оставлены в угоду целостности комплекта файлов из другой лабораторной работы
 файлы ScrollZommer и ScrollBar взяты из библиотеки qwt
+файл LoadTestDynamicArrayIntFile можно использовать для измерения скорости работы сортировок на DynamicArray. 
+Скорость работы программы с использованием DynamicArray вместо Sequence возрастает в 2.4 раза
