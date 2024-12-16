@@ -160,7 +160,13 @@ public:
         ArraySequence<T> *result = GetInstance();
         if(result->size_ == result->GetCapacity())
         {
-            result->array_->ReCapacity(this->array_->GetCapacity() * 2);
+            if(result->array_->GetCapacity() == 0)
+            {
+                result->array_->ReCapacity(1);
+            }
+            else{
+                result->array_->ReCapacity(result->array_->GetCapacity() * 2);
+            }
             result->size_++;
             for (int i = result->size_ - 1; i > index; i--)
             {
