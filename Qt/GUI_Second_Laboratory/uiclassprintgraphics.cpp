@@ -6,6 +6,7 @@
 #include <QScreen>
 #include <QLabel>
 #include <QVBoxLayout>
+#include <iostream>
 
 #include "ScrollZoomer.h"
 #include "uiclassprintgraphics.h"
@@ -14,6 +15,7 @@ UIClassPrintGraphics::UIClassPrintGraphics() {}
 
 void UIClassPrintGraphics::PrintGraphics(SorterTableModel const * model)
 {
+    std::cout << "Start function PrintGraphics" << std::endl;
     //int size = model->rowCount(QModelIndex());
     int countBubbleSorters = 0;
     int countInsertionSorters = 0;
@@ -51,7 +53,7 @@ void UIClassPrintGraphics::PrintGraphics(SorterTableModel const * model)
             continue;
         }
     }
-
+    std::cout << "Objects counted" << std::endl;
     double timeBubbleSorter[countBubbleSorters];
     double sizeBubbleSorter[countBubbleSorters];
 
@@ -142,6 +144,7 @@ void UIClassPrintGraphics::PrintGraphics(SorterTableModel const * model)
             continue;
         }
     }
+    std::cout << "Read data fromModel" << std::endl;
     for(int i = 0; i < countBubbleSorters; i++){
         for(int j = 0; j < countBubbleSorters - 1; j++){
             if(sizeBubbleSorter[j] > sizeBubbleSorter[j + 1]){
@@ -227,6 +230,8 @@ void UIClassPrintGraphics::PrintGraphics(SorterTableModel const * model)
         }
     }
 
+    std::cout << "Data sorted" << std::endl;
+
 
     QwtPlotCurve *curveBubble = new QwtPlotCurve("y(x)");
     QwtPlotCurve *curveQuick = new QwtPlotCurve("y(x)");
@@ -268,12 +273,15 @@ void UIClassPrintGraphics::PrintGraphics(SorterTableModel const * model)
     curveMerge->setPen(QPen(Qt::magenta));
     curveMerge->setCurveAttribute(QwtPlotCurve::Fitted);
 
+    std::cout << "curves alloceted" << std::endl;
+
     curveBubble->setSamples(sizeBubbleSorter, timeBubbleSorter, countBubbleSorters);
     curveInsert->setSamples(sizeInsertionSorter, timeInsertionSorter, countInsertionSorters);
     curveShell->setSamples(sizeShellSorter, timeShellSorter, countShellSorters);
     curveMerge->setSamples(sizeMergeSorter, timeMergeSorter, countMergeSorters);
     curvePiramid->setSamples(sizePiramidSorter, timePiramidSorter, countPiramidSorters);
     curveQuick->setSamples(sizeQuickSorter, timeQuickSorter, countQuickSorters);
+    std::cout << "Points setted to curves" << std::endl;
 
     QWidget* wgGraphics = new QWidget;
     QwtPlot *plot = new QwtPlot(wgGraphics);
@@ -290,6 +298,7 @@ void UIClassPrintGraphics::PrintGraphics(SorterTableModel const * model)
     QPalette p = plot->palette();
     p.setColor(QPalette::Window, Qt::darkGray);
     plot->setPalette(p);
+    std::cout << "Layouts and widgets allocated " << std::endl;
 
     curveBubble->attach(plot);
     curveInsert->attach(plot);
@@ -298,11 +307,14 @@ void UIClassPrintGraphics::PrintGraphics(SorterTableModel const * model)
     curvePiramid->attach(plot);
     curveQuick->attach(plot);
 
+    std::cout << "plot attached" << std::endl;
+
     plot->resize(QRect(QApplication::screens().at(0)->geometry()).width() / 2, QRect(QApplication::screens().at(0)->geometry()).height() / 2);
     //plot->setAxisAutoScale()
     //plot->setAxisAutoScale(QwtPlot :: xBottom);
-
+std::cout << "before ScroolZoomer" << std::endl;
     ScrollZoomer *zoomer = new ScrollZoomer(plot->canvas());
+    std::cout << "after Scrool zoomer" << std::endl;
     plot->replot();
     plot->show();
     wgGraphics->show();

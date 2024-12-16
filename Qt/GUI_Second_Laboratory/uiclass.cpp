@@ -416,6 +416,8 @@ void UIClass::slotStartSort()
 
 void UIClass::slotPrintGraphics()
 {
+    std::cout << "start slotPrintGraphics" << std::endl;
     UIClassPrintGraphics Printer;
     Printer.PrintGraphics(model_);
+    std::cout << "end slot" << std::endl;
 }
