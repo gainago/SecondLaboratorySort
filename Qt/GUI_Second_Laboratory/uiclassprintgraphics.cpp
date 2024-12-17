@@ -239,6 +239,7 @@ void UIClassPrintGraphics::PrintGraphics(SorterTableModel const * model)
     QwtPlotCurve *curveInsert = new QwtPlotCurve("y(x)");
     QwtPlotCurve *curveShell = new QwtPlotCurve("y(x)");
     QwtPlotCurve *curveMerge = new QwtPlotCurve("y(x)");
+    std::cout << "operator new finished" << std::endl;
 
     curveBubble->setStyle(QwtPlotCurve::Lines);
     curveBubble->setPen(QPen(Qt::blue));

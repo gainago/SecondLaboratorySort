@@ -1,0 +1,159 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "untitled5",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "untitled5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-untitled5-Debug-cfcc3581cc8742f52cc1.json",
+					"name" : "untitled5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "untitled5_Function_For_Tests_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-untitled5_Function_For_Tests_lib-Debug-46873b538616f722aa89.json",
+					"name" : "untitled5_Function_For_Tests_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "untitled5_Function_For_Tests_lib_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-untitled5_Function_For_Tests_lib_autogen-Debug-85b031394fff78305d71.json",
+					"name" : "untitled5_Function_For_Tests_lib_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "untitled5_Function_For_Tests_lib_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-untitled5_Function_For_Tests_lib_autogen_timestamp_deps-Debug-b724b2228aedc626fbd5.json",
+					"name" : "untitled5_Function_For_Tests_lib_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "untitled5_TypesOfData_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-untitled5_TypesOfData_lib-Debug-a477d9b066bceccb01e6.json",
+					"name" : "untitled5_TypesOfData_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "untitled5_TypesOfData_lib_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-untitled5_TypesOfData_lib_autogen-Debug-56e0e6aba5ddd8d65593.json",
+					"name" : "untitled5_TypesOfData_lib_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "untitled5_TypesOfData_lib_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-untitled5_TypesOfData_lib_autogen_timestamp_deps-Debug-cecb6f76fe436e022b34.json",
+					"name" : "untitled5_TypesOfData_lib_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "untitled5_Unit_Tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-untitled5_Unit_Tests-Debug-79fb799930f09080774d.json",
+					"name" : "untitled5_Unit_Tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "untitled5_Unit_Tests_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-untitled5_Unit_Tests_autogen-Debug-11942ea88fc0d8227bdb.json",
+					"name" : "untitled5_Unit_Tests_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "untitled5_Unit_Tests_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-untitled5_Unit_Tests_autogen_timestamp_deps-Debug-03da7e77fa7969dfa9b2.json",
+					"name" : "untitled5_Unit_Tests_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "untitled5_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-untitled5_autogen-Debug-27e35e5336b940a91392.json",
+					"name" : "untitled5_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "untitled5_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-untitled5_autogen_timestamp_deps-Debug-013e7862b3a9a2035cea.json",
+					"name" : "untitled5_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build",
+		"source" : "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
