@@ -230,60 +230,6 @@ void UIClassPrintGraphics::PrintGraphics(SorterTableModel const * model)
         }
     }
 
-    std::cout << "Data sorted" << std::endl;
-
-
-    QwtPlotCurve *curveBubble = new QwtPlotCurve("y(x)");
-    QwtPlotCurve *curveQuick = new QwtPlotCurve("y(x)");
-    QwtPlotCurve *curvePiramid = new QwtPlotCurve("y(x)");
-    QwtPlotCurve *curveInsert = new QwtPlotCurve("y(x)");
-    QwtPlotCurve *curveShell = new QwtPlotCurve("y(x)");
-    QwtPlotCurve *curveMerge = new QwtPlotCurve("y(x)");
-    std::cout << "operator new finished" << std::endl;
-
-    curveBubble->setStyle(QwtPlotCurve::Lines);
-    curveBubble->setPen(QPen(Qt::blue));
-    curveBubble->setCurveAttribute(QwtPlotCurve::Fitted);
-    //curveBubble->setData(new CurveData());
-    //curveBubble->setSymbol(new QwtSymbol(QwtSymbol::Ellipse, Qt::NoBrush, QPen(Qt::blue), QSize(1, 1)));
-
-
-    curveQuick->setStyle(QwtPlotCurve::Lines);
-    curveQuick->setPen(QPen(Qt::red));
-    curveQuick->setCurveAttribute(QwtPlotCurve::Fitted);
-    //curveQuick->setData(new CurveData());
-    //curveQuick->setSymbol(new QwtSymbol(QwtSymbol::Ellipse, Qt::NoBrush, QPen(Qt::red), QSize(1, 1)));
-
-
-
-    curvePiramid->setStyle(QwtPlotCurve::Lines);
-    curvePiramid->setPen(QPen(Qt::black));
-    curvePiramid->setCurveAttribute(QwtPlotCurve::Fitted);
-    //curvePiramid->setData(new CurveData());
-    //curvePiramid->setSymbol(new QwtSymbol(QwtSymbol::Ellipse, Qt::NoBrush, QPen(Qt::black), QSize(1, 1)));
-
-    curveInsert->setStyle(QwtPlotCurve::Lines);
-    curveInsert->setPen(QPen(Qt::cyan));
-    //curveInsert->setCurveAttribute(QwtPlotCurve::Fitted);
-
-    curveShell->setStyle(QwtPlotCurve::Lines);
-    curveShell->setPen(QPen(Qt::green));
-    curveShell->setCurveAttribute(QwtPlotCurve::Fitted);
-
-    curveMerge->setStyle(QwtPlotCurve::Lines);
-    curveMerge->setPen(QPen(Qt::magenta));
-    curveMerge->setCurveAttribute(QwtPlotCurve::Fitted);
-
-    std::cout << "curves alloceted" << std::endl;
-
-    curveBubble->setSamples(sizeBubbleSorter, timeBubbleSorter, countBubbleSorters);
-    curveInsert->setSamples(sizeInsertionSorter, timeInsertionSorter, countInsertionSorters);
-    curveShell->setSamples(sizeShellSorter, timeShellSorter, countShellSorters);
-    curveMerge->setSamples(sizeMergeSorter, timeMergeSorter, countMergeSorters);
-    curvePiramid->setSamples(sizePiramidSorter, timePiramidSorter, countPiramidSorters);
-    curveQuick->setSamples(sizeQuickSorter, timeQuickSorter, countQuickSorters);
-    std::cout << "Points setted to curves" << std::endl;
-
     QWidget* wgGraphics = new QWidget;
     QwtPlot *plot = new QwtPlot(wgGraphics);
     QLabel* labelTextTitle = new QLabel("Bubble Sort: blue\t Insertion Sort: cyan(light blue)\t Shell Sort: green\t Merge Sort: magenta\t Piramid Sort: black\t Quick Sort: red\n");
@@ -301,12 +247,87 @@ void UIClassPrintGraphics::PrintGraphics(SorterTableModel const * model)
     plot->setPalette(p);
     std::cout << "Layouts and widgets allocated " << std::endl;
 
+    std::cout << "Data sorted" << std::endl;
+
+
+    QwtPlotCurve *curveBubble = new QwtPlotCurve("y(x)");
+    QwtPlotCurve *curveQuick = new QwtPlotCurve("y(x)");
+    QwtPlotCurve *curvePiramid = new QwtPlotCurve("y(x)");
+    QwtPlotCurve *curveInsert = new QwtPlotCurve("y(x)");
+    QwtPlotCurve *curveShell = new QwtPlotCurve("y(x)");
+    QwtPlotCurve *curveMerge = new QwtPlotCurve("y(x)");
+    std::cout << "operator new finished" << std::endl;
+    
+    if(curveBubble != nullptr){
+        curveBubble->setSamples(sizeBubbleSorter, timeBubbleSorter, countBubbleSorters);
+    curveBubble->setStyle(QwtPlotCurve::Lines);
+    curveBubble->setPen(QPen(Qt::blue));
+    curveBubble->setCurveAttribute(QwtPlotCurve::Fitted);
     curveBubble->attach(plot);
-    curveInsert->attach(plot);
-    curveShell->attach(plot);
-    curveMerge->attach(plot);
-    curvePiramid->attach(plot);
+    }
+    else{
+        std::cout << "could not allocate curveBubble";
+    }
+
+
+    if(curveQuick != nullptr){
+        curveQuick->setSamples(sizeQuickSorter, timeQuickSorter, countQuickSorters);
+    curveQuick->setStyle(QwtPlotCurve::Lines);
+    curveQuick->setPen(QPen(Qt::red));
+    curveQuick->setCurveAttribute(QwtPlotCurve::Fitted);
     curveQuick->attach(plot);
+    }
+    else{
+        std::cout << "could not allocate curveQuick";
+    }
+
+    if(curvePiramid != nullptr){
+        
+        curvePiramid->setSamples(sizePiramidSorter, timePiramidSorter, countPiramidSorters);
+    curvePiramid->setStyle(QwtPlotCurve::Lines);
+    curvePiramid->setPen(QPen(Qt::black));
+    curvePiramid->setCurveAttribute(QwtPlotCurve::Fitted);
+    curvePiramid->attach(plot);
+    }
+    else{
+        std::cout << "could not allocate curvePiramid";
+    }
+
+    if(curveInsert != nullptr){
+        curveInsert->setSamples(sizeInsertionSorter, timeInsertionSorter, countInsertionSorters);
+    curveInsert->setStyle(QwtPlotCurve::Lines);
+    curveInsert->setPen(QPen(Qt::cyan));
+    curveInsert->setCurveAttribute(QwtPlotCurve::Fitted);
+    curveInsert->attach(plot);
+
+    }
+    else{
+        std::cout << "could not allocate curveInsert";
+    }
+
+    if(curveShell != nullptr){
+        curveShell->setSamples(sizeShellSorter, timeShellSorter, countShellSorters);
+    curveShell->setStyle(QwtPlotCurve::Lines);
+    curveShell->setPen(QPen(Qt::green));
+    curveShell->setCurveAttribute(QwtPlotCurve::Fitted);
+    curveShell->attach(plot);
+
+    }
+    else{
+        std::cout << "could not allocate curveShell";
+    }
+
+    if(curveMerge != nullptr){
+        curveMerge->setSamples(sizeMergeSorter, timeMergeSorter, countMergeSorters);
+    curveMerge->setStyle(QwtPlotCurve::Lines);
+    curveMerge->setPen(QPen(Qt::magenta));
+    curveMerge->setCurveAttribute(QwtPlotCurve::Fitted);
+    curveMerge->attach(plot);
+    }
+    else{
+        std::cout << "could not allocate curveMerge";
+    }
+    
 
     std::cout << "plot attached" << std::endl;
 
