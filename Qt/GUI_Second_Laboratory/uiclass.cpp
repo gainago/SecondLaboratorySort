@@ -235,7 +235,7 @@ void UIClass::slotAutomaticallyCreateData()
     getQStringFromNewWidget* obj = new getQStringFromNewWidget;
     connect(obj, SIGNAL(ButtonPushed(QString))
             , this, SLOT(slotAutomaticallyCreateDataFinal(QString)));
-    obj->getString("Enter number of objects", "append");
+    obj->getString("Enter number of objects", "reset");
 }
 
 void UIClass::slotAutomaticallyCreateDataFinal(QString strNumber)
@@ -250,6 +250,13 @@ void UIClass::slotAutomaticallyCreateDataFinal(QString strNumber)
                               , "You have to enter int");
         return;
     }
+    if(number > 100000){
+        QWidget* wg = new QWidget;
+        QMessageBox::critical(wg, "Pay Attention"
+                              , "You wrote too big size of data");
+        return;
+    }
+    textEditFirst_->clear();
     srand(time(NULL));
     for(int i = 0; i < number; i++)
     {
