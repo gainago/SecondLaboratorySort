@@ -9,9 +9,11 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -ggdb")
+
 set(SOURCE "../../")
 
-find_package(Qt6 REQUIRED COMPONENTS Widgets Core Gui)
+find_package(Qt5 REQUIRED COMPONENTS Widgets)
 
 include_directories(
 "${SOURCE}/Declaration/Sequence"
@@ -52,13 +54,9 @@ set(PROJECT_SOURCES
 
         )
 
-target_link_libraries(${PROJECT_NAME} PRIVATE 
-	Qt6::Widgets 
-	Qt6::Core 
-	Qt6::Gui 
-	"/home/goshagaina/Qwt/qwt-6.3.0/lib/libqwt.so.6.3.0" # change it #2
-)
+target_link_libraries(GUI_Second_Laboratory PRIVATE Qt5::Widgets)
 
+#----------Types OfData------
 file(GLOB
                 CPP_TYPES_OF_DATA "${SOURCE}/Definition/TypesOfData/*.cpp")
 
@@ -69,3 +67,6 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
                                         ${PROJECT_NAME}_TypesOfData_lib
 
 )
+
+target_link_libraries(${PROJECT_NAME} PRIVATE
+                                         "/home/goshagaina/Qwt/qwt-6.3.0/lib/libqwt.so.6.3.0") #Rewrite these Path
