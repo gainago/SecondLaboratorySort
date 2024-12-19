@@ -21,7 +21,7 @@ include_directories(
 "/home/goshagaina/Qwt/qwt-6.3.0/src"
 )
 
-set(PROJECT_SOURCES(
+set(PROJECT_SOURCES
         main.cpp
 )
         add_executable(GUI_Second_Laboratory
