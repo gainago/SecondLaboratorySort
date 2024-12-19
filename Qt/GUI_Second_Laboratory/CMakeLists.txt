@@ -69,6 +69,3 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
                                         ${PROJECT_NAME}_TypesOfData_lib
 
 )
-
-target_link_libraries(${PROJECT_NAME} PRIVATE
-                                         "/home/goshagaina/Qwt/qwt-6.3.0/lib/libqwt.so.6.3.0") #Rewrite these Path
