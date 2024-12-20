@@ -9,8 +9,7 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
-find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
+find_package(Qt5 REQUIRED COMPONENTS Widgets)
 
 include_directories(
 "/home/goshagaina/Qwt/qwt-6.3.0/classincludes"
@@ -39,7 +38,7 @@ file(GLOB           SOURCES "${PROJECT_SOURCE_DIR}/*.h"
 add_library( ${PROJECT_NAME} SHARED
                                         ${SOURCES})
                                         
-target_link_libraries(${PROJECT_NAME} Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(${PROJECT_NAME} Qt5::Widgets)
 
 target_link_libraries(${PROJECT_NAME}
                                          "/home/goshagaina/Qwt/qwt-6.3.0/lib/libqwt.so.6.3.0")
